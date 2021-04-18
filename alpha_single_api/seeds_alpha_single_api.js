@@ -1,10 +1,17 @@
-use Sol;
+use sol;
 db.dropDatabase();
 
 db.planets.insertMany([
     {
         name: "Mercury",
         position_from_sun: 1,
+        image_url: {
+            first: "https://scitechdaily.com/images/Iridescent-Mercury.jpg",
+            second: "https://www.cronodon.com/images/mercury-1a.jpg",
+            third: "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/ma_1005_NID_Mercury_online3.jpg?itok=hjZo8tWi",
+            forth: "https://i.pinimg.com/originals/6d/ff/c4/6dffc49314b7b1fcdd396b3b02f5ced9.jpg",
+            fifth: "https://cdn.britannica.com/75/145475-050-916827A9/Caloris-Basin-Mercury-spacecraft-Messenger-2008.jpg",
+        },
         latin_name: "Mercurius",
         sumerian_name: "Enki",
         orbit_distance_km: 57909227,
@@ -19,7 +26,7 @@ db.planets.insertMany([
         orbit_period_days: 88,
         surface_temperature_max_celcius: 427,
         surface_temperature_min_celcius: -173,
-        facts:{
+        facts: {
             first: "Mercury has been known to humanity since ancient times and although its discovery date is unknown, the first mentions of the planet are believed to be around 3000 BC by the Sumerians.",
             second: "A year in Mercury is 88 days, yet a Mercury day is 176 Earth days.Mercury is nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
             third: "Mercury orbits so quickly around the Sun that early civilizations believed it was actually two different stars – one which appeared in the morning and another which appeared in the evening.",
@@ -35,13 +42,20 @@ db.planets.insertMany([
             thirteenth: "Mercury does not experience any seasons.The axis of Mercury has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
             fourteenth: "Mercury is the only planet which doesn’t rotate exactly once every year – instead rotating three times for every two orbits of the Sun.This is because it is nearly tidally locked to the Sun.",
             fifteenth: "The orbit of Mercury was important in proving Albert Einstein’s theory of General Relativity.",
-            
+
         },
     },
 
     {
         name: "Venus",
         position_from_sun: 2,
+        image_url: {
+            first: "https://earthsky.org/upl/2019/09/Venus-dayside.png",
+            second: "https://cdn.mos.cms.futurecdn.net/kaPwBjHiUKax8syodHNPmF.jpg",
+            third: "https://static.scientificamerican.com/sciam/cache/file/F7E0BB0E-3F76-4AF5-92AC0951C2976728_source.jpg?w=590&h=800&7D4AE32D-D3D4-4689-A81E895E9A173CC2",
+            forth: "https://solarsystem.nasa.gov/internal_resources/4319/",
+            fifth: "https://thesuffolkjournal.com/wp-content/uploads/2020/09/Venus-900x900.png",
+        },
         latin_name: "Venus",
         sumerian_name: "Inanna",
         orbit_distance_km: 108209475,
@@ -65,7 +79,7 @@ db.planets.insertMany([
             fifth: "Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as 'bright queen of the sky'.",
             sixth: "Venus is sometimes called Earth’s sister planet. This is because their size is very similar (there is only a 638 km different in diameter) and Venus has around 81% of Earth’s mass. They are also similarly located with Venus being the closest planet to Earth. Both planets also have a central core, a molten mantle and a crust.",
             seventh: "Venus has no moons nor rings.",
-            eighth: "Billions of years ago, the climate of Venus may been similar to that of Earth and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and the surface of the planet is now too hot and hostile to sustain life.", 
+            eighth: "Billions of years ago, the climate of Venus may been similar to that of Earth and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and the surface of the planet is now too hot and hostile to sustain life.",
             ninth: "Venus rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis, however Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
             tenth: "Venus is the hottest planet in the solar system with an average surface temperature of 462°C (863°F). Also, Venus doesn’t tilt on its axis which means there are no seasons either. The atmosphere is a dense 96.5% carbon dioxide which traps heat and caused the greenhouse effect which evaporated any water sources billions of years ago.",
             eleventh: "The temperature on Venus doesn’t vary much between the night and day. This is due to the slow movement of the solar winds across the surface of the planet.",
@@ -80,6 +94,13 @@ db.planets.insertMany([
     {
         name: "Earth",
         position_from_sun: 3,
+        image_url: {
+            first: "https://www.thoughtco.com/thmb/Whrni3pbKfnTfZyz2rzQEVS-jVc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg",
+            second: "https://i2.wp.com/kashmirobserver.net/wp-content/uploads/2020/07/earth.jpg?fit=800%2C772&ssl=1",
+            third: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F97%2FThe_Earth_seen_from_Apollo_17.jpg%2F1200px-The_Earth_seen_from_Apollo_17.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FEarth&tbnid=BUbNaZxy9NyhgM&vet=12ahUKEwjwls60xYfwAhWP0OAKHSuzDBIQMygCegUIARCPAg..i&docid=88gjCNbYu3-8ZM&w=1200&h=1201&itg=1&q=images%20of%20the%20planet%20earth&ved=2ahUKEwjwls60xYfwAhWP0OAKHSuzDBIQMygCegUIARCPAg",
+            forth: "https://i.ytimg.com/vi/xncLubEj50k/maxresdefault.jpg",
+            fifth: "https://c.tadst.com/gfx/1200x630/international-earth-year.jpg?1",
+        },
         latin_name: "Terra",
         sumerian_name: "Ki",
         orbit_distance_km: 149598262,
@@ -102,7 +123,7 @@ db.planets.insertMany([
             fifth: "The rotation of the Earth is gradually slowing down. The deceleration of the Earth’s rotation is very slow, approximately 17 milliseconds per hundred years. Eventually this will lengthen our days but it will take around 140 million years before our day will have increased from 24 to 25 hours.",
             sixth: "Earth’s atmosphere is composed of 78% nitrogen, 21% oxygen, and trace amounts of other gases including argon and carbon dixoide.",
             seventh: "The large amount of oxygen on Earth comes from our plant life’s consumption of carbon dioxide during photosynthesis",
-            eighth: "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.", 
+            eighth: "Earth has a very powerful magnetic field. This field protects the planet from the effects of solar winds and is believed to be a result of the nickel-iron core of the planet combined with its rapid rotation.",
             ninth: "The Earth has an Ozone Layer which protects it from harmful solar radiation. This shell is a special type of oxygen that absorbs most of the Sun’s powerful UV rays.",
             tenth: "70% of the Earth’s surface is covered by water – the remainder consists of continents and islands which together have many lakes and other sources of water.",
             eleventh: "The first life on Earth developed in the oceans through a process called abiogenesis or biopoiesis. This is a natural process in which life grows from non-living matter like simple organic compounds.",
@@ -117,6 +138,13 @@ db.planets.insertMany([
     {
         name: "Mars",
         position_from_sun: 4,
+        image_url: {
+            first: "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f775f2683bae528aec3c1ca%2F0x0.jpg",
+            second: "https://www.universetoday.com/wp-content/uploads/2011/12/mars-viking-zoom.jpg",
+            third: "https://c.files.bbci.co.uk/10F74/production/_114829496_mars.jpg",
+            forth: "https://www.nhm.ac.uk/content/dam/nhmwww/discover/planet-mars/mars-factfile-red-planet-full-width.jpg",
+            fifth: "https://scitechdaily.com/images/Olympus-Mons-Mars-scaled.jpg",
+        },
         latin_name: "Mars",
         sumerian_name: "Gugulanna",
         orbit_distance_km: 227943824,
@@ -140,7 +168,7 @@ db.planets.insertMany([
             fifth: "On Mars the Sun appears about half the size as it does on Earth. At the closest point to the Sun, the Martian southern hemisphere leans towards the Sun, causing a short, intensely hot summer, while the northern hemisphere endures a brief, cold winter: at its farthest point from the Sun, the Martian northern hemisphere leans towards the Sun, causing a long, mild summer, while the southern hemisphere endures a lengthy, cold winter.",
             sixth: "Pieces of Mars have fallen to Earth. Scientists have found tiny traces of Martian atmosphere within meteorites violently ejected from Mars, then orbiting the solar system amongst galactic debris for millions of years, before crash landing on Earth.This allowed scientists to begin studying Mars prior to launching space missions.",
             seventh: "Mars takes its name from the Roman god of war. The ancient Greeks called the planet Ares, after their god of war; the Romans then did likewise, associating the planet’s blood- red colour with Mars, their own god of war.Interestingly, other ancient cultures also focused on colour – to China’s astronomers it was ‘the fire star’, whilst Egyptian priests called on ‘Her Desher’, or ‘the red one’.The red colour Mars is known for is due to the rock and dust covering its surface being rich in iron.",
-            eighth: "There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice.The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to Mars’ atmosphere this water would have to be salty to prevent it from freezing or vaporising.", 
+            eighth: "There are signs of liquid water on Mars. For years Mars has been known to have water in the form of ice.The first signs of trickling water are dark stripes or stains on crater wall and cliffs seen in satellite images.Due to Mars’ atmosphere this water would have to be salty to prevent it from freezing or vaporising.",
             ninth: "One day Mars will have a ring. In the next 20-40 million years Mars’ largest moon Phobos will be torn apart by gravitational forces leading to the creation of a ring that could last up to 100 million years.",
             tenth: "Sunsets on Mars are blue. During the martian day the sky is pinkish- red, this is the opposite of the Earth’s skies.",
             eleventh: "It's thought that Mars's core is predominantly made up of iron, but also nickel and sulphur. The core is about half the size of the planet and may be entirely liquid, or have a solid iron centre and a liquid exterior.",
@@ -155,6 +183,13 @@ db.planets.insertMany([
     {
         name: "Jupiter",
         position_from_sun: 5,
+        image_url: {
+            first: "",
+            second: "",
+            third: "",
+            forth: "",
+            fifth: "",
+        },
         latin_name: "Iuppiter",
         sumerian_name: "Enlil",
         orbit_distance_km: 778340821,
@@ -270,6 +305,13 @@ db.planets.insertMany([
     {
         name: "Saturn",
         position_from_sun: 6,
+        image_url: {
+            first: "",
+            second: "",
+            third: "",
+            forth: "",
+            fifth: "",
+        },
         latin_name: "Saturnus",
         sumerian_name: "Ninurta",
         orbit_distance_km: 1426666422,
@@ -388,6 +430,13 @@ db.planets.insertMany([
     {
         name: "Uranus",
         position_from_sun: 7,
+        image_url: {
+            first: "",
+            second: "",
+            third: "",
+            forth: "",
+            fifth: "",
+        },
         latin_name: "Uranus",
         sumerian_name: null,
         orbit_distance_km: 2870658186,
@@ -436,7 +485,7 @@ db.planets.insertMany([
             fifth: "Uranus hits the coldest temperatures of any planet. With minimum atmospheric temperature of - 224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks.",
             sixth: "Uranus has two sets of very thin dark coloured rings. The ring particles are small, ranging from a dust- sized particles to small boulders.There are eleven inner rings and two outer rings.They probably formed when one or more of Uranus’s moons were broken up in an impact.The first rings were discovered in 1977 with the two outer rings being discovered in Hubble Space Telescope images between 2003 and 2005.",
             seventh: "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. These include Oberon, Titania and Miranda.All are frozen worlds with dark surfaces.Some are ice and rock mixtures.The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange- looking surface areas.",
-            eighth: "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81, 500 km.It returned the first close- up images of the planet, its moons, and rings.", 
+            eighth: "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81, 500 km.It returned the first close- up images of the planet, its moons, and rings.",
             ninth: "The axial tilt of Uranus is a staggering 99 degrees. In other words, the planet is rotating on its side. All the planets look a bit like spinning top as they go around the Sun, but Uranus looks more like a ball rolling in a circular pattern.",
             tenth: "With a mean density of 0.687 g/cm3, Saturn’s body is actually less dense than water (1 g/cm³). This means that the planet would float in a pool, provided it were roughly 60,000 km wide. With a mean density of 1.27 g/cm3, Uranus has the second-lowest density of any planet in the Solar System.",
             eleventh: "Sir William Herschel tried to have Uranus (as his discovery) named “Georgian Sidus” after King George III.The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos.",
@@ -451,6 +500,13 @@ db.planets.insertMany([
     {
         name: "Neptune",
         position_from_sun: 8,
+        image_url: {
+            first: "",
+            second: "",
+            third: "",
+            forth: "",
+            fifth: "",
+        },
         latin_name: "Neptunus",
         sumerian_name: null,
         orbit_distance_km: 4498396441,
@@ -501,6 +557,13 @@ db.planets.insertMany([
     {
         name: "Pluto (NOT ACTUALLY A PLANET!)",
         position_from_sun: 9,
+        image_url: {
+            first: "",
+            second: "",
+            third: "",
+            forth: "",
+            fifth: "",
+        },
         latin_name: "Pluto",
         sumerian_name: null,
         orbit_distance_km: 7375936441,
