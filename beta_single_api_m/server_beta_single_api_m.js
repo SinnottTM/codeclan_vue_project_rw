@@ -8,7 +8,7 @@ const parser = require('body-parser');
 app.use(parser.json());
 
 const MongoClient = require('mongodb').MongoClient;
-const createRouter = require('./helpers/create_router.js.js.js');
+const createRouter = require('./helpers/create_router.js.js');
 MongoClient.connect('mongodb://localhost:27017')
     .then((client) => {
         const db = client.db('sol');
