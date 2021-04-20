@@ -772,49 +772,60 @@ db.solar_system.insertMany([
                     surface_temperature_max_celcius: -174,
                     surface_temperature_min_celcius: -220,
                     facts: [
+
                         "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System. It is the second smallest body in the Solar System for which precise measurements have confirmed a shape consistent with hydrostatic equilibrium, after dwarf planet Ceres. It was discovered in 1672 by Giovanni Domenico Cassini.",
+
                         "Rhea is named after the Titan Rhea of Greek mythology, the 'mother of the gods' and wife of Kronos, the Greek counterpart of the god Saturn. It is also designated Saturn V (being the fifth major moon going outward from the planet, after Mimas, Enceladus, Tethys, and Dione).",
+
                         "On March 6, 2008, NASA announced that Rhea may have a tenuous ring system. This would mark the first discovery of rings around a moon. The rings' existence was inferred by observed changes in the flow of electrons trapped by Saturn's magnetic field as Cassini passed by Rhea. Dust and debris could extend out to Rhea's Hill sphere, but were thought to be denser nearer the moon, with three narrow rings of higher density",
+
                     ]
                     },
                     {
-                    name: "",
-                    position: 0,
+                    name: "Titan",
+                    position: 22,
                     image_url: [
-                        "",
-                        "",
-                        ""
+                        "https://mk0astronomynow9oh6g.kinstacdn.com/wp-content/uploads/2015/12/PIA20016.jpg",
+                        "https://www.universetoday.com/wp-content/uploads/2016/04/titan_large.jpg",
+                        "https://media.tegna-media.com/assets/WQAD/images/d6c14552-b85f-4c85-875f-65331a327f61/d6c14552-b85f-4c85-875f-65331a327f61_750x422.jpg"
                     ],
-                    orbit_distance_km: 0,
-                    equatorial_diameter_km: 0,
-                    mass: "",
-                    orbit_period_in_days: 0,
-                    surface_temperature_max_celcius: 0,
-                    surface_temperature_min_celcius: 0,
+                    orbit_distance_km: 1400000000,
+                    equatorial_diameter_km: 5149.5,
+                    mass: "(1.3452±0.0002) × 1023kg (0.0225 Earths)",
+                    orbit_period_in_days: 16,
+                    surface_temperature_max_celcius: -179.6,
+                    surface_temperature_min_celcius: -185.6,
                     facts: [
-                        "",
-                        "",
-                        "",
+
+                        "Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System. It is the only moon known to have a dense atmosphere, and the only known body in space, other than Earth, where clear evidence of stable bodies of surface liquid has been found.",
+
+                        "Titan is one of seven gravitationally rounded moons in orbit around Saturn, and the second most distant from Saturn of those seven. Frequently described as a planet-like moon, Titan is 50% larger (in diameter) than Earth's Moon and 80% more massive. It is the second-largest moon in the Solar System after Jupiter's moon Ganymede, and is larger than the planet Mercury, but only 40% as massive.",
+
+                        "The atmosphere of Titan is largely nitrogen; minor components lead to the formation of methane and ethane clouds and heavy organonitrogen haze. The climate—including wind and rain—creates surface features similar to those of Earth, such as dunes, rivers, lakes, seas (probably of liquid methane and ethane), and deltas, and is dominated by seasonal weather patterns as on Earth. With its liquids (both surface and subsurface) and robust nitrogen atmosphere, Titan's methane cycle bears a striking similarity to Earth's water cycle, albeit at the much lower temperature of about 94 K (−179.2 °C; −290.5 °F)",
+
                     ]
                     },
                     {
-                    name: "",
-                    position: 0,
+                    name: "Iapetus",
+                    position: 24,
                     image_url: [
-                        "",
-                        "",
-                        ""
+                        "https://upload.wikimedia.org/wikipedia/commons/c/c9/Iapetus_as_seen_by_the_Cassini_probe_-_20071008.jpg",
+                        "https://astronomy.com/~/media/DE89D2749359491BAEA168DDB386F6B4.jpg",
+                        "https://i.imgur.com/EZeEUrc.jpg"
                     ],
-                    orbit_distance_km: 0,
-                    equatorial_diameter_km: 0,
-                    mass: "",
-                    orbit_period_in_days: 0,
-                    surface_temperature_max_celcius: 0,
-                    surface_temperature_min_celcius: 0,
+                    orbit_distance_km: 3561300,
+                    equatorial_diameter_km: 1469,
+                    mass: "(1.805635±0.000375) × 1021kg (0.1155 Earths)",
+                    orbit_period_in_days: 79,
+                    surface_temperature_max_celcius: -143.333,
+                    surface_temperature_min_celcius: -173.333,
                     facts: [
-                        "",
-                        "",
-                        "",
+
+                        "Iapetus (/aɪˈæpɪtəs/) is the third-largest natural satellite of Saturn, eleventh-largest in the Solar System,[10] and the largest body in the Solar System known not to be in hydrostatic equilibrium.[11] Discoveries by the Cassini mission in 2007 revealed several unusual features, such as a massive equatorial ridge running three-quarters of the way around the moon.",
+
+                        "apetus is named after the Titan Iapetus from Greek mythology. The name was suggested by John Herschel (son of William Herschel, discoverer of Mimas and Enceladus) in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope,[15] in which he advocated naming the moons of Saturn after the Titans, brothers and sisters of the Titan Cronus (whom the Romans equated with their god Saturn).",
+
+                        "The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It has also the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see.",
                     ]
                     },
 
@@ -823,26 +834,234 @@ db.solar_system.insertMany([
             orbit_period_days: 10756,
             surface_temperature_max_celcius: -122,
             surface_temperature_min_celcius: -185,
-            facts: {
-                first: "Saturn is the most distant planet that can be seen with the naked eye. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
-                second: "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus.",
-                third: "Saturn is the flattest planet. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second- shortest day of any of the solar system’s planets.",
-                fourth: "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians.The name means “oldest of the old”.",
-                fifth: "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice.Below them, the clouds are largely water ice.Below are layers of cold hydrogen and sulfur ice mixtures.",
-                sixth: "Saturn has oval-shaped storms similar to Jupiter’s. The region around its north pole has a hexagonal- shaped pattern of clouds.Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane- like storm.",
-                seventh: "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet.Eventually, deep inside, the hydrogen becomes metallic.At the core lies a hot interior.",
-                eighth: "Saturn has the most extensive rings in the solar system. The Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust.The rings stretch out more than 120, 700 km from the planet, but are amazingly thin: only about 20 meters thick.",
-                ninth: "Saturn has 150 moons and smaller moonlets. All are frozen worlds.The largest moons are Titan and Rhea.Enceladus appears to have an ocean below its frozen surface.",
-                tenth: "Titan is a moon with complex and dense nitrogen-rich atmosphere. It is composed mostly of water ice and rock.Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen.Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life",
-                eleventh: "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini- Huygens mission have all studied the planet.Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
-                twelfth: "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter.",
-                thirteenth: "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. Forty five years later, in 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, later proposed that Saturn had a thin, flat ring.",
-                fourteenth: "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed.",
-                fifteenth: "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward. Along with Jupiter, it might also have slung a barrage of debris toward the inner planets early in the system's history.",
+            facts: [
 
+                "Saturn is the most distant planet that can be seen with the naked eye. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
+                
+                "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus.",
+                
+                "Saturn is the flattest planet. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second- shortest day of any of the solar system’s planets.",
+                
+                "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians.The name means “oldest of the old”.",
+                
+                "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice.Below them, the clouds are largely water ice.Below are layers of cold hydrogen and sulfur ice mixtures.",
+                
+                "Saturn has oval-shaped storms similar to Jupiter’s. The region around its north pole has a hexagonal- shaped pattern of clouds.Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane- like storm.",
+                
+                "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet.Eventually, deep inside, the hydrogen becomes metallic.At the core lies a hot interior.",
+                
+                "Saturn has the most extensive rings in the solar system. The Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust.The rings stretch out more than 120, 700 km from the planet, but are amazingly thin: only about 20 meters thick.",
+                
+                "Saturn has 150 moons and smaller moonlets. All are frozen worlds.The largest moons are Titan and Rhea.Enceladus appears to have an ocean below its frozen surface.",
+                
+                "Titan is a moon with complex and dense nitrogen-rich atmosphere. It is composed mostly of water ice and rock.Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen.Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life",
+                
+                "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini- Huygens mission have all studied the planet.Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
+                
+                "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter.",
+                
+                "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. Forty five years later, in 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, later proposed that Saturn had a thin, flat ring.",
+                
+                "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed.",
+                
+                "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward. Along with Jupiter, it might also have slung a barrage of debris toward the inner planets early in the system's history.",
+
+            ],
             },
-        },
+            {
+            
+            name: "Uranus",
+            planet_intro: "",
+            position_from_sun: 7,
+            image_url: [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
+                "https://data.whicdn.com/images/331818858/original.jpg?t=1561112500",
+                "https://miro.medium.com/max/960/1*F04NVRyBDRuLwPkD0rBN9w.jpeg",
+                "https://i.natgeofe.com/n/c1ee2a2c-b6c8-44ad-8e29-413a49732225/42912.jpg",
+                "https://www.universetoday.com/wp-content/uploads/2014/11/4_179.jpg",
+            ],
+            latin_name: "Uranus",
+            sumerian_name: null,
+            orbit_distance_km: 2870658186,
+            orbit_distance_au: 19.22,
+            equatorial_diameter_km: 51118,
+            mass: "8.68 × 10^25 kg (15 Earths)",
+            number_of_moons: 27,
+            moon_list: [
+                "Cordelia",
+                "Ophelia",
+                "Bianca",
+                "Cressida",
+                "Desdemona",
+                "Juliet",
+                "Portia",
+                "Rosalind",
+                "Cupid",
+                "Belinda",
+                "Perdita",
+                "Puck",
+                "Mab",
+                "Miranda",
+                "Ariel",
+                "Umbriel",
+                "Titania",
+                "Oberon",
+                "Francisco",
+                "Caliban",
+                "Stephano",
+                "Trinculo",
+                "Sycorax",
+                "Margaret",
+                "Prospero",
+                "Setebos",
+                "Ferdinand",
+            ],
+            sig_moon_number: 5,
+                sig_moons: [
+                    {
+                    name: "Miranda",
+                    position: 14,
+                    image_url: [
+                        "https://upload.wikimedia.org/wikipedia/commons/e/e1/PIA18185_Miranda%27s_Icy_Face.jpg",
+                        "https://cdn.britannica.com/32/78232-050-8CCA6A1E/innermost-moons-Miranda-Uranus-mosaic-images-Voyager-Jan-24-1986.jpg",
+                        "https://www.nasa.gov/sites/default/files/images/173645main_image_feature_796_ys_full.jpg"
+                    ],
+                    orbit_distance_km: 129900,
+                    equatorial_diameter_km: 471.6,
+                    mass: "(6.4±0.3) × 1019kg",
+                    orbit_period_in_days: 1.4,
+                    surface_temperature_max_celcius: -189.15,
+                    // No info available
+                    surface_temperature_min_celcius: null,
+                    facts: [
 
+                        "Miranda, also designated Uranus V, is the smallest and innermost of Uranus's five round satellites. It was discovered by Gerard Kuiper on 16 February 1948 at McDonald Observatory in Texas, and named after Miranda from William Shakespeare's play The Tempest.[10] Like the other large moons of Uranus, Miranda orbits close to its planet's equatorial plane. Because Uranus orbits the Sun on its side, Miranda's orbit is perpendicular to the ecliptic and shares Uranus' extreme seasonal cycle.",
+
+                        "At just 470 km in diameter, Miranda is one of the smallest closely observed objects in the Solar System that might be in hydrostatic equilibrium (spherical under its own gravity). The only close-up images of Miranda are from the Voyager 2 probe, which made observations of Miranda during its Uranus flyby in January 1986. During the flyby, Miranda's southern hemisphere pointed towards the Sun, so only that part was studied.",
+
+                        "While crater counts suggest that the majority of Miranda's surface is old, with a similar geological history to the other Uranian satellites,[22][29] few of those craters are particularly large, indicating that most must have formed after a major resurfacing event in its distant past.[20] Craters on Miranda also appear to possess softened edges, which could be the result either of ejecta or of cryovolcanism.[29] The temperature at Miranda's south pole is roughly 85 K, a temperature at which pure water ice adopts the properties of rock",
+
+                    ]
+                },
+                {
+                    name: "Ariel",
+                    position: 15,
+                    image_url: [
+                        "https://solarsystem.nasa.gov/system/content_pages/main_images/220_PIA00041.jpg",
+                        "https://i.pinimg.com/originals/73/5b/94/735b941e8f2fb269a87642b317c845de.jpg",
+                        "https://upload.wikimedia.org/wikipedia/commons/5/59/Ariel_%28moon%29.jpg"
+                    ],
+                    orbit_distance_km: 190000,
+                    equatorial_diameter_km: 1157.8,
+                    mass: "(1.251±0.021) × 1021kg",
+                    orbit_period_in_days: 3.33,
+                    surface_temperature_max_celcius: -190.15,
+                    surface_temperature_min_celcius: null,
+                    facts: [
+
+                        "Ariel is the fourth-largest of the 27 known moons of Uranus. Ariel orbits and rotates in the equatorial plane of Uranus, which is almost perpendicular to the orbit of Uranus and so has an extreme seasonal cycle. It was discovered in October 1851 by William Lassell and named for a character in two different pieces of literature, Alexander Pope's The Rape of the Lock and Shakespeare's The Tempest.",
+
+                        "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
+
+                        "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite, and was the first Uranian satellite on which this compound was discovered. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
+
+                    ]
+                },
+                {
+                    name: "Umbriel",
+                    position: 16,
+                    image_url: [
+                        "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/umbriel/media/thumbnail_big.jpg",
+                        "https://i.pinimg.com/originals/f2/a2/90/f2a2900a77e7540488199ca55cf5e9e3.jpg",
+                        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Umbriel.png/768px-Umbriel.png"
+                    ],
+                    orbit_distance_km: 266000,
+                    equatorial_diameter_km: 1169.4,
+                    mass: "(1.275±0.028) × 1021kg",
+                    orbit_period_in_days: 4.125,
+                    surface_temperature_max_celcius: -188.15,
+                    surface_temperature_min_celcius: null,
+                    facts: [
+
+                        "Umbriel /ˈʌmbriəl/ is a moon of Uranus discovered on October 24, 1851, by William Lassell. It was discovered at the same time as Ariel and named after a character in Alexander Pope's poem The Rape of the Lock. Umbriel consists mainly of ice with a substantial fraction of rock, and may be differentiated into a rocky core and an icy mantle. The surface is the darkest among Uranian moons, and appears to have been shaped primarily by impacts. However, the presence of canyons suggests early endogenic processes, and the moon may have undergone an early endogenically driven resurfacing event that obliterated its older surface.",
+
+                        "Covered by numerous impact craters reaching 210 km (130 mi) in diameter, Umbriel is the second most heavily cratered satellite of Uranus after Oberon. The most prominent surface feature is a ring of bright material on the floor of Wunda crater. This moon, like all moons of Uranus, probably formed from an accretion disk that surrounded the planet just after its formation.",
+
+                        "Umbriel may be differentiated into a rocky core surrounded by an icy mantle.[24] If this is the case, the radius of the core (317 km) is about 54% of the radius of the moon, and its mass is around 40% of the moon's mass—the parameters are dictated by the moon's composition. The pressure in the center of Umbriel is about 0.24 GPa (2.4 kbar).[24] The current state of the icy mantle is unclear, although the existence of a subsurface ocean is considered unlikely.",
+                    ]
+                },
+                {
+                    name: "Titania",
+                    position: 17,
+                    image_url: [
+                        "https://solarsystem.nasa.gov/system/content_pages/main_images/292_PIA00036.jpg",
+                        "https://www.universetoday.com/wp-content/uploads/2010/02/Titania.jpg",
+                        "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/titania/media/thumbnail_big.jpg"
+                    ],
+                    orbit_distance_km: 435840,
+                    equatorial_diameter_km: 1576.8,
+                    mass: "(3.400±0.061)×1021 kg",
+                    orbit_period_in_days: 8.708333,
+                    surface_temperature_max_celcius: -184.15,
+                    surface_temperature_min_celcius: -213.15,
+                    facts: [
+
+                        "Titania, also designated Uranus III, is the largest of the moons of Uranus and the eighth largest moon in the Solar System at a diameter of 1,578 kilometres (981 mi). Discovered by William Herschel in 1787, Titania is named after the queen of the fairies in Shakespeare's A Midsummer Night's Dream. Its orbit lies inside Uranus's magnetosphere.",
+
+                        "Titania was discovered by William Herschel on January 11, 1787, the same day he discovered Uranus's second largest moon, Oberon. He later reported the discoveries of four more satellites, although they were subsequently revealed as spurious. For nearly fifty years following their discovery, Titania and Oberon would not be observed by any instrument other than William Herschel's, although the moon can be seen from Earth with a present-day high-end amateur telescope",
+
+                        "Titania's orbit lies completely inside the Uranian magnetosphere. This is important, because the trailing hemispheres of satellites orbiting inside a magnetosphere are struck by magnetospheric plasma, which co-rotates with the planet. This bombardment may lead to the darkening of the trailing hemispheres, which is actually observed for all Uranian moons except Oberon (see below).",
+                    ]
+                },
+                {
+                    name: "Oberon",
+                    position: 18,
+                    image_url: [
+                        "https://www.universetoday.com/wp-content/uploads/2010/02/Oberon_USGS1.jpg",
+                        "https://www.universetoday.com/wp-content/uploads/2010/02/Umbriel_usgsx2.jpg",
+                        "https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/oberon/media/thumbnail_big.jpg"
+                    ],
+                    orbit_distance_km: 584000,
+                    equatorial_diameter_km: 1522.8,
+                    mass: "(3.076±0.087)×1021 kg",
+                    orbit_period_in_days: 13,
+                    surface_temperature_max_celcius: -193.15,
+                    surface_temperature_min_celcius: -203.15,
+                    facts: [
+
+                        "Oberon /ˈoʊbərɒn/, also designated Uranus IV, is the outermost major moon of the planet Uranus. It is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System. Discovered by William Herschel in 1787, Oberon is named after the mythical king of the fairies who appears as a character in Shakespeare's A Midsummer Night's Dream. Its orbit lies partially outside Uranus's magnetosphere.",
+
+                        "Oberon orbits Uranus at a distance of about 584,000 km, being the farthest from the planet among its five major moons.[e] Oberon's orbit has a small orbital eccentricity and inclination relative to the equator of Uranus.[4] Its orbital period is around 13.5 days, coincident with its rotational period. In other words, Oberon is a synchronous satellite, tidally locked, with one face always pointing toward the planet. Oberon spends a significant part of its orbit outside the Uranian magnetosphere. As a result, its surface is directly struck by the solar wind",
+
+                        "",
+                    ]
+                }
+            ],
+                rings: 13,
+                orbit_period_days: 30687,
+                surface_temperature_max_celcius: -153,
+                surface_temperature_min_celcius: -224,
+                facts: {
+                    first: "Uranus was officially discovered by Sir William Herschel in 1781. It is too dim to have been seen by the ancients.At first Herschel thought it was a comet, but several years later it was confirmed as a planet.",
+                    second: "Uranus turns on its axis once every 17 hours, 14 minutes. The planet rotates in a retrograde direction, opposite to the way Earth and most other planets turn.",
+                    third: "Uranus makes one trip around the Sun every 84 Earth years. During some parts of its orbit one or the other of its poles point directly at the Sun and get about 42 years of direct sunlight.The rest of the time they are in darkness.",
+                    fourth: "Uranus is often referred to as an “ice giant” planet. Like the other gas giants, it has a hydrogen upper layer, which has helium mixed in.Below that is an icy “mantle, which surrounds a rock and ice core.The upper atmosphere is made of water, ammonia and the methane ice crystals that give the planet its pale blue colour.",
+                    fifth: "Uranus hits the coldest temperatures of any planet. With minimum atmospheric temperature of - 224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks.",
+                    sixth: "Uranus has two sets of very thin dark coloured rings. The ring particles are small, ranging from a dust- sized particles to small boulders.There are eleven inner rings and two outer rings.They probably formed when one or more of Uranus’s moons were broken up in an impact.The first rings were discovered in 1977 with the two outer rings being discovered in Hubble Space Telescope images between 2003 and 2005.",
+                    seventh: "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. These include Oberon, Titania and Miranda.All are frozen worlds with dark surfaces.Some are ice and rock mixtures.The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange- looking surface areas.",
+                    eighth: "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81, 500 km.It returned the first close- up images of the planet, its moons, and rings.",
+                    ninth: "The axial tilt of Uranus is a staggering 99 degrees. In other words, the planet is rotating on its side. All the planets look a bit like spinning top as they go around the Sun, but Uranus looks more like a ball rolling in a circular pattern.",
+                    tenth: "With a mean density of 0.687 g/cm3, Saturn’s body is actually less dense than water (1 g/cm³). This means that the planet would float in a pool, provided it were roughly 60,000 km wide. With a mean density of 1.27 g/cm3, Uranus has the second-lowest density of any planet in the Solar System.",
+                    eleventh: "Sir William Herschel tried to have Uranus (as his discovery) named “Georgian Sidus” after King George III.The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos.",
+                    twelfth: "You might be surprised to know that you can see Uranus without a telescope. At magnitude 5.3, Uranus is just within the brightness scale that a human eye can perceive. Unfortunately, you’d need to make sure that the night sky was extremely dark (i.e. no light pollution), and would have to know exactly where to look.",
+                    thirteenth: "The possibility of sending the Cassini spacecraft from Saturn to Uranus was evaluated during a mission extension planning phase in 2009. However, this never came to fruition, as it would have taken about twenty years for Cassini to get to the Uranian system after departing Saturn.",
+                    fourteenth: "There's still much more to learn about Uranus's tempests. In 2014, between Uranus's infrequent equinoxes, astronomers using the 10-meter Keck telescope spotted eight stunning squalls below its blue blanket. Scientists suggest that perhaps these vortices are rooted deeper in the atmosphere, like the storms of Jupiter. But to know for sure, researchers would need a closer look.",
+                    fifteenth: "Like Saturn, Jupiter, and Neptune, Uranus is a big ball of gas, often called a jovian or gas giant world. Uranus owes its vibrant blue-green hues not from unusual oceans but from an upper atmosphere flush with methane, which absorbs the sun's red light and scatters blue light back to our eyes. The rest of planet's atmosphere is largely made of hydrogen and helium, with scant amounts of ammonia, water, and methane. Trace amounts of hydrogen sulfide also hint that, if you could visit this distant place without a spacesuit, the planet would smell like rotten eggs. ",
+
+                },
+            },
+        
+            }
     ]}
 ])
     
@@ -859,102 +1078,6 @@ db.solar_system.insertMany([
 
 
 
-
-
-
-/
-
-//     {
-//         name: "Uranus",
-//         planet_intro: "",
-//         position_from_sun: 7,
-//         image_url: {
-//             first: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/1200px-Uranus2.jpg",
-//             second: "https://data.whicdn.com/images/331818858/original.jpg?t=1561112500",
-//             third: "https://miro.medium.com/max/960/1*F04NVRyBDRuLwPkD0rBN9w.jpeg",
-//             forth: "https://i.natgeofe.com/n/c1ee2a2c-b6c8-44ad-8e29-413a49732225/42912.jpg",
-//             fifth: "https://www.universetoday.com/wp-content/uploads/2014/11/4_179.jpg",
-//         },
-//         latin_name: "Uranus",
-//         sumerian_name: null,
-//         orbit_distance_km: 2870658186,
-//         orbit_distance_au: 19.22,
-//         equatorial_diameter_km: 51118,
-//         mass: "8.68 × 10^25 kg (15 Earths)",
-//         number_of_moons: 27,
-//         moon_names: {
-//             first: "Cordelia",
-//             second: "Ophelia",
-//             third: "Bianca",
-//             fourth: "Cressida",
-//             fifth: "Desdemona",
-//             sixth: "Juliet",
-//             seventh: "Portia",
-//             eighth: "Rosalind",
-//             ninth: "Cupid",
-//             tenth: "Belinda",
-//             eleventh: "Perdita",
-//             twelfth: "Puck",
-//             thirteenth: "Mab",
-//             fourteenth: "Miranda",
-//             fifteenth: "Ariel",
-//             sixteen: "Umbriel",
-//             seventeen: "Titania",
-//             eighteen: "Oberon",
-//             nineteen: "Francisco",
-//             twentieth: "Caliban",
-//             twenty_one: "Stephano",
-//             twenty_two: "Trinculo",
-//             twenty_three: "Sycorax",
-//             twenty_four: "Margaret",
-//             twenty_five: "Prospero",
-//             twenty_six: "Setebos",
-//             twenty_seven: "Ferdinand",
-//         },
-        // moon_list: [""],
-        //     sig_moons: [{
-        //         name: "",
-        //         position: 0,
-        //         image_url: [
-        //             "",
-        //             "",
-        //             ""
-        //         ],
-        //         orbit_distance_km: 0,
-        //         equatorial_diameter_km: 0,
-        //         mass: "",
-        //         orbit_period_in_days: 0,
-        //         surface_temperature_max_celcius: 0,
-        //         surface_temperature_min_celcius: 0,
-        //         facts: [
-        //             "",
-        //             "",
-        //             "",
-        //         ]
-        //     }],
-//         rings: 13,
-//         orbit_period_days: 30687,
-//         surface_temperature_max_celcius: -153,
-//         surface_temperature_min_celcius: -224,
-//         facts: {
-//             first: "Uranus was officially discovered by Sir William Herschel in 1781. It is too dim to have been seen by the ancients.At first Herschel thought it was a comet, but several years later it was confirmed as a planet.",
-//             second: "Uranus turns on its axis once every 17 hours, 14 minutes. The planet rotates in a retrograde direction, opposite to the way Earth and most other planets turn.",
-//             third: "Uranus makes one trip around the Sun every 84 Earth years. During some parts of its orbit one or the other of its poles point directly at the Sun and get about 42 years of direct sunlight.The rest of the time they are in darkness.",
-//             fourth: "Uranus is often referred to as an “ice giant” planet. Like the other gas giants, it has a hydrogen upper layer, which has helium mixed in.Below that is an icy “mantle, which surrounds a rock and ice core.The upper atmosphere is made of water, ammonia and the methane ice crystals that give the planet its pale blue colour.",
-//             fifth: "Uranus hits the coldest temperatures of any planet. With minimum atmospheric temperature of - 224°C Uranus is nearly coldest planet in the solar system. While Neptune doesn’t get as cold as Uranus it is on average colder. The upper atmosphere of Uranus is covered by a methane haze which hides the storms that take place in the cloud decks.",
-//             sixth: "Uranus has two sets of very thin dark coloured rings. The ring particles are small, ranging from a dust- sized particles to small boulders.There are eleven inner rings and two outer rings.They probably formed when one or more of Uranus’s moons were broken up in an impact.The first rings were discovered in 1977 with the two outer rings being discovered in Hubble Space Telescope images between 2003 and 2005.",
-//             seventh: "Uranus’ moons are named after characters created by William Shakespeare and Alexander Pope. These include Oberon, Titania and Miranda.All are frozen worlds with dark surfaces.Some are ice and rock mixtures.The most interesting Uranian moon is Miranda; it has ice canyons, terraces, and other strange- looking surface areas.",
-//             eighth: "Only one spacecraft has flown by Uranus. In 1986, the Voyager 2 spacecraft swept past the planet at a distance of 81, 500 km.It returned the first close- up images of the planet, its moons, and rings.",
-//             ninth: "The axial tilt of Uranus is a staggering 99 degrees. In other words, the planet is rotating on its side. All the planets look a bit like spinning top as they go around the Sun, but Uranus looks more like a ball rolling in a circular pattern.",
-//             tenth: "With a mean density of 0.687 g/cm3, Saturn’s body is actually less dense than water (1 g/cm³). This means that the planet would float in a pool, provided it were roughly 60,000 km wide. With a mean density of 1.27 g/cm3, Uranus has the second-lowest density of any planet in the Solar System.",
-//             eleventh: "Sir William Herschel tried to have Uranus (as his discovery) named “Georgian Sidus” after King George III.The name Uranus was suggested by astronomer Johann Bode. The name comes from the ancient Greek deity Ouranos.",
-//             twelfth: "You might be surprised to know that you can see Uranus without a telescope. At magnitude 5.3, Uranus is just within the brightness scale that a human eye can perceive. Unfortunately, you’d need to make sure that the night sky was extremely dark (i.e. no light pollution), and would have to know exactly where to look.",
-//             thirteenth: "The possibility of sending the Cassini spacecraft from Saturn to Uranus was evaluated during a mission extension planning phase in 2009. However, this never came to fruition, as it would have taken about twenty years for Cassini to get to the Uranian system after departing Saturn.",
-//             fourteenth: "There's still much more to learn about Uranus's tempests. In 2014, between Uranus's infrequent equinoxes, astronomers using the 10-meter Keck telescope spotted eight stunning squalls below its blue blanket. Scientists suggest that perhaps these vortices are rooted deeper in the atmosphere, like the storms of Jupiter. But to know for sure, researchers would need a closer look.",
-//             fifteenth: "Like Saturn, Jupiter, and Neptune, Uranus is a big ball of gas, often called a jovian or gas giant world. Uranus owes its vibrant blue-green hues not from unusual oceans but from an upper atmosphere flush with methane, which absorbs the sun's red light and scatters blue light back to our eyes. The rest of planet's atmosphere is largely made of hydrogen and helium, with scant amounts of ammonia, water, and methane. Trace amounts of hydrogen sulfide also hint that, if you could visit this distant place without a spacesuit, the planet would smell like rotten eggs. ",
-
-//         },
-//     },
 
 //     {
 //         name: "Neptune",
