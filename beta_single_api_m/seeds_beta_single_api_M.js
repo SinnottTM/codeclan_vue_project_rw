@@ -150,7 +150,9 @@ db.solar_system.insertMany([
             moon_list: [
                 "Luna"
             ],
-                sig_moons: [{
+            sig_moon_number: 1,
+                sig_moons: [
+                    {
                     name: "Luna",
                     position: 1,
                     image_url: [
@@ -173,7 +175,8 @@ db.solar_system.insertMany([
                         "Today, astronomers know that the Moon is slowly moving away from the Earth. But at the rate it is traveling, about 1.5 inches (4 cm) per year, it will be a long time before the two part ways.",
 
                         ]
-                }],
+                    }
+                ],
             rings: 0,
             orbit_period_days: 365.24,
             surface_temperature_max_celcius: 58,
@@ -236,7 +239,9 @@ db.solar_system.insertMany([
                 "Phobos", 
                 "Deimos"
             ],
-                sig_moons: [{
+            sig_moon_number: 2,
+                sig_moons: [
+                    {
                     name: "Phobos",
                     position: 1,
                     image_url: [
@@ -251,30 +256,37 @@ db.solar_system.insertMany([
                     surface_temperature_max_celcius: -4,
                     surface_temperature_min_celcius: -112,
                     facts: [ 
-                            "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side",
-                            "Phobos is named after the Greek god Phobos, a son of Ares (Mars) and Aphrodite (Venus) and twin brother of Deimos. Phobos was the god and personification of fear and panic and the root of the word phobia.",
-                            "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse",
+                        
+                        "Phobos is one of the least reflective bodies in the Solar System, with an albedo of just 0.071. Surface temperatures range from about −4 °C (25 °F) on the sunlit side to −112 °C (−170 °F) on the shadowed side",
+
+                        "Phobos is named after the Greek god Phobos, a son of Ares (Mars) and Aphrodite (Venus) and twin brother of Deimos. Phobos was the god and personification of fear and panic and the root of the word phobia.",
+
+                        "Phobos is heavily cratered.[28] The most prominent of these is the crater, Stickney, a large impact crater some 9 km (5.6 mi) in diameter, taking up a substantial proportion of the moon's surface area. The impact that created Stickney must have nearly shattered Phobos and have led to theories that Phobos may be hollow (due to the impact forcing the interior of the moon to be forced out) or in a state of extremely gradual collapse",
                     ]
                     },
                     {
-                        name: "Deimos",
-                        position: 2,
-                        image_url: [
-                            "https://cdn.britannica.com/95/76195-050-06005F96/Deimos-outer-moons-distance-orbiter-Mars-Viking-October-1977.jpg",
-                            "https://upload.wikimedia.org/wikipedia/commons/8/8d/Deimos-MRO.jpg",
-                            "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg"
-                        ],
-                        orbit_distance_km: 23460,
-                        equatorial_diameter_km: 12.4,
-                        mass: "1.4762×1015 kg (0.247179 nEarths)",
-                        orbit_period_in_days: 1.25,
-                        surface_temperature_max_celcius: -4,
-                        surface_temperature_min_celcius: -112,
-                        facts: [
-                            "It is named after Deimos, the Ancient Greek god and personification of dread and terror, and who is also a son of Ares and Aphrodite and the twin brother of Phobos.",
-                            "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed",
-                            "Deimos's orbit is slowly getting larger, because it is far enough away from Mars and because of tidal acceleration. It is expected to eventually escape Mars's gravity.",
-                        ]
+                    name: "Deimos",
+                    position: 2,
+                    image_url: [
+                    "https://cdn.britannica.com/95/76195-050-06005F96/Deimos-outer-moons-distance-orbiter-Mars-Viking-October-1977.jpg",
+                    "https://upload.wikimedia.org/wikipedia/commons/8/8d/Deimos-MRO.jpg",
+                    "https://apod.nasa.gov/apod/image/0903/deimos_hirise.jpg"
+                    ],
+                    orbit_distance_km: 23460,
+                    equatorial_diameter_km: 12.4,
+                    mass: "1.4762×1015 kg (0.247179 nEarths)",
+                    orbit_period_in_days: 1.25,
+                    surface_temperature_max_celcius: -4,
+                    surface_temperature_min_celcius: -112,
+                    facts: [
+
+                        "It is named after Deimos, the Ancient Greek god and personification of dread and terror, and who is also a son of Ares and Aphrodite and the twin brother of Phobos.",
+
+                        "Deimos is possibly an asteroid that was perturbed by Jupiter into an orbit that allowed it to be captured by Mars, though this hypothesis is still controversial and disputed",
+
+                        "Deimos's orbit is slowly getting larger, because it is far enough away from Mars and because of tidal acceleration. It is expected to eventually escape Mars's gravity.",
+
+                    ]
                     }
             ],
             rings: 0,
@@ -317,7 +329,7 @@ db.solar_system.insertMany([
 
             {
             name: "Jupiter",
-                planet_intro: "Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. One spacecraft — NASA's Juno orbiter — is currently exploring this giant world.",
+            planet_intro: "Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. One spacecraft — NASA's Juno orbiter — is currently exploring this giant world.",
             position_from_sun: 5,
             image_url: [
                 "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
@@ -414,8 +426,9 @@ db.solar_system.insertMany([
                 "Callirrhoe",
                 "Sinope",
             ],
+            sig_moon_number: 4,
                 sig_moons: [
-                    {
+                {
                     name: "Io",
                     position: 5,
                     image_url: [
@@ -430,9 +443,13 @@ db.solar_system.insertMany([
                     surface_temperature_max_celcius: 1200,
                     surface_temperature_min_celcius: -130,
                     facts: [
+
                         "It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
+
                         "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
+
                         "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features. ",
+
                     ]
                 },
 
@@ -451,9 +468,13 @@ db.solar_system.insertMany([
                     surface_temperature_max_celcius: -160,
                     surface_temperature_min_celcius: -220,
                     facts: [
+
                         "Europa or Jupiter II, is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet of all the 79 known moons of Jupiter. It is also the sixth-largest moon in the Solar System. Europa was discovered in 1610 by Galileo Galilei and was named after Europa, the Phoenician mother of King Minos of Crete and lover of Zeus (the Greek equivalent of the Roman god Jupiter).",
+
                         "Slightly smaller than Earth's Moon, Europa is primarily made of silicate rock and has a water-ice crust and probably an iron–nickel core. It has a very thin atmosphere, composed primarily of oxygen. Its surface is striated by cracks and streaks, but craters are relatively few. In addition to Earth-bound telescope observations, Europa has been examined by a succession of space-probe flybys, the first occurring in the early 1970s.",
+
                         "Europa has the smoothest surface of any known solid object in the Solar System. The apparent youth and smoothness of the surface have led to the hypothesis that a water ocean exists beneath the surface, which could conceivably harbor extraterrestrial life.",
+
                     ]
                 },
 
@@ -472,15 +493,293 @@ db.solar_system.insertMany([
                     surface_temperature_max_celcius: -183,
                     surface_temperature_min_celcius: -113,
                     facts: [
+
                         "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi), making it 26% larger than the planet Mercury by volume, although it is only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. Outward from Jupiter, it is the seventh satellite and the third of the Galilean moons, the first group of objects discovered orbiting another planet. Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.",
+
                         "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
-                        "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa."
+
+                        "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa.",
+
                     ]
                 },
 
                 {
-                    name: "",
+                    name: "Callisto",
                     position: 8,
+                    image_url: [
+                        "https://static.wikia.nocookie.net/marvelcomicsfanon/images/1/13/Telos.jpg/revision/latest?cb=20190816151817",
+                        "https://upload.wikimedia.org/wikipedia/commons/e/e9/Callisto.jpg",
+                        "https://i.pinimg.com/originals/66/22/b0/6622b05975668d468e8cffa5fcc35115.jpg"
+                    ],
+                    orbit_distance_km: 1883000,
+                    equatorial_diameter_km: 2400,
+                    mass: "(1.075938±0.000137) × 1023kg (0.018 Earths)",
+                    orbit_period_in_days: 16.68902,
+                    surface_temperature_max_celcius: -22.15,
+                    surface_temperature_min_celcius: -108.15,
+                    facts: [
+
+                        "Callisto is about 4.5 billion years old, about the same age as Jupiter. It is the most heavily cratered object in the solar system, according to NASA. There is hardly any geologic activity on its surface. The surface has not changed much since initial impacts molded its surface 4 billion years ago",
+
+                        "If Callisto is habitable — and how it formed that way — are among the outstanding questions that the JUICE mission will start studying. JUICE is slated to launch toward Jupiter in 2022 and work at the planet for at least three years, between 2030 and 2033",
+
+                        "The likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa.[23] Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
+                    ]
+                }
+
+            ],
+            rings: 4,
+            orbit_period_days: 4333,
+            surface_temperature_max_celcius: -108,
+            surface_temperature_min_celcius: -161,
+            facts: [
+
+                "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter.It is one of five planets visible to the naked eye from Earth.",
+                
+                "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC.Jupiter is named after the king of the Roman gods.To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon.Germanic tribes saw this planet as Donar, or Thor.",
+                
+                "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
+                
+                "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
+                
+                "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds.",
+                
+                "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
+                
+                "Jupiter’s interior is made of rock, metal, and hydrogen compounds. Below Jupiter’s massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
+                
+                "Jupiter’s moon Ganymede is the largest moon in the solar system. Jupiter’s moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto Io and Europa. Ganymeade measures 5, 268 km across, making it larger than the planet Mercury.",
+                
+                "Jupiter has a thin ring system. Its rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids.The ring system begins some 92, 000 kilometres above Jupiter’s cloud tops and stretches out to more than 225, 000 km from the planet.They are between 2, 000 to 12, 500 kilometres thick.",
+                
+                "Eight spacecraft have visited Jupiter. Pioneer 10 and 11, Voyager 1 and 2, Galileo, Cassini, Ulysses, and New Horizons missions.The Juno mission is its way to Jupiter and will arrive in July 2016. Other future missions may focus on the Jovian moons Europa, Ganymede, and Callisto, and their subsurface oceans.",
+                
+                "Jupiter is sometimes considered a failed star. If Jupiter had become 80 times more massive, nuclear fusion would have occurred in its core. Had that happened, it would have become a star instead of a planet.",
+                
+                "Jupiter does not experience seasons like other planets such as Earth and Mars. This is because the axis is only tilted by 3.13 degrees.",
+                
+                "Jupiter is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius.",
+                
+                "The largest of Jupiter’s moons, Ganymede is the largest moon in the solar system. The moons are sometimes called the Jovian satellites and the largest of them are Ganymede, Callisto, Io and Europa. Ganymede is larger than the planet Mercury with a diameter of around 5,268 km.",
+                
+                "Jupiter actually experiences the most intense auroras in the solar system, being hundreds of times brighter than on Earth. Just like on Earth, auroras on Jupiter are caused by solar storms. However, Jupiter has an additional source for its auroras: charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
+
+            ],
+            },
+
+            {
+            name: "Saturn",
+            planet_intro: "Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings—made of chunks of ice and rock—but none are as spectacular or as complicated as Saturn's. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium.",
+            position_from_sun: 6,
+            image_url: [
+            "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
+            "https://i.pinimg.com/originals/aa/2f/78/aa2f78effbe107f23b6e5a3aebd4d563.jpg",
+            "https://cdn.mos.cms.futurecdn.net/XFL6HquyTYfQH5L7ztttp3.jpg",
+            "https://i.pinimg.com/originals/f1/a4/22/f1a42242dbe3d614dc7f252198c3eee0.jpg",
+            "https://i.pinimg.com/originals/55/d2/e0/55d2e0b23e378116cf04ea2ebe19f63f.jpg",
+            ],
+            latin_name: "Saturnus",
+            sumerian_name: "Ninurta",
+            orbit_distance_km: 1426666422,
+            orbit_distance_au: 9.58,
+            equatorial_diameter_km: 120536,
+            mass: "5.68 × 10^26 kg (95 Earths)",
+            number_of_moons: 82,
+            moon_list: [
+                "S/2009 S 1",
+                "Pan",
+                "Daphnis",
+                "Atlas",
+                "Prometheus",
+                "Pandora",
+                "Epimetheus",
+                "Janus",
+                "Aegaeon",
+                "Mimas",
+                "Methone",
+                "Anthe",
+                "Pallene",
+                "Enceladus",
+                "Tethys",
+                "Telesto",
+                "Calypso",
+                "Dione",
+                "Helene",
+                "Polydeuces",
+                "Rhea",
+                "Titan",
+                "Hyperion",
+                "Iapetus",
+                "Kiviuq",
+                "Ijiraq",
+                "Phoebe",
+                "Paaliaq",
+                "Skathi",
+                "S/2004 S 37",
+                "S/2007 S 2",
+                "Albiorix",
+                "Bebhionn",
+                "S/2004 S 29",
+                "Skoll",
+                "S/2004 S 31",
+                "Erriapus",
+                "Tarqeq",
+                "Siarnaq",
+                "Tarvos",
+                "Hyrrokkin",
+                "Greip",
+                "Mundilfari",
+                "S/2004 S 13",
+                "S/2006 S 1",
+                "S/2007 S 3",
+                "Suttungr",
+                "S/2004 S 20",
+                "Jarnsaxa",
+                "Narvi",
+                "Bergelmir",
+                "Hati",
+                "S/2004 S 17",
+                "S/2004 S 12",
+                "S/2004 S 27",
+                "Farbauti",
+                "Thrymr",
+                "Bestla",
+                "S/2004 S 7",
+                "Aegir",
+                "S/2004 S 30",
+                "S/2004 S 22",
+                "S/2004 S 25",
+                "S/2004 S 32",
+                "S/2004 S 23",
+                "S/2006 S 3",
+                "S/2004 S 35",
+                "Kari",
+                "S/2004 S 28",
+                "Loge",
+                "S/2004 S 38",
+                "Fenrir",
+                "Ymir",
+                "Surtur",
+                "S/2004 S 33",
+                "S/2004 S 24",
+                "S/2004 S 21",
+                "S/2004 S 39",
+                "S/2004 S 36",
+                "Fornjot",
+                "S/2004 S 34",
+                "S/2004 S 26",
+            ],
+            sig_moon_number: 7,
+                sig_moons: [
+                    {
+                    name: "Mimas",
+                    position: 10,
+                    image_url: [
+                        "https://static.wikia.nocookie.net/planet-archives/images/3/3e/Mimas.jpg/revision/latest?cb=20200704181732",
+                        "https://lh3.googleusercontent.com/proxy/bxSt_VeT-q0qQxjzGCOIiTEu3COIdQbV67P3OyeFA7qRKOL28l3uUBdHxidTb_TDMlfjsvnhYkFl3t7IG3wpgnJDHNpG9E2sx4Zxa25ZQtDh4-xs",
+                        "https://cdn.mos.cms.futurecdn.net/WiawvKiNw9xCjC8BWLmay6.jpg"
+                    ],
+                    orbit_distance_km: 186000,
+                    equatorial_diameter_km: 396.4,
+                    mass: "(3.7493±0.0031) × 1019kg (6.3×10−6 Earths)",
+                    orbit_period_in_days: 0.942,
+                    surface_temperature_max_celcius: -181.15,
+                    surface_temperature_min_celcius: -200,
+                    facts: [
+
+                        "Mimas /ˈmaɪməs/, also designated Saturn I, is a moon of Saturn which was discovered in 1789 by William Herschel.[11] It is named after Mimas, a son of Gaia in Greek mythology.",
+
+                        "Mimas's most distinctive feature is a giant impact crater 130 km (81 mi) across, named Herschel after the discoverer of Mimas. Herschel's diameter is almost a third of Mimas's own diameter; its walls are approximately 5 km (3 mi) high, parts of its floor measure 10 km (6 mi) deep, and its central peak rises 6 km (4 mi) above the crater floor. If there were a crater of an equivalent scale on Earth (in relative size) it would be over 4,000 km (2,500 mi) in diameter, wider than Australia. The impact that made this crater must have nearly shattered Mimas: fractures can be seen on the opposite side of Mimas that may have been created by shock waves from the impact travelling through Mimas's core.",
+
+                        "When seen from certain angles, Mimas resembles the Death Star, a fictional space station and superweapon known from the 1977 film Star Wars. Herschel resembles the concave disc of the Death Star's superlaser. This is coincidental, as the film was made nearly three years before Mimas was resolved well enough to see the crater.",
+                    ]
+                    },
+                    {
+                    name: "Enceladus",
+                    position: 14,
+                    image_url: [
+                        "https://upload.wikimedia.org/wikipedia/commons/8/83/PIA17202_-_Approaching_Enceladus.jpg",
+                        "https://solarsystem.nasa.gov/system/content_pages/main_images/486_PIA11133.jpg",
+                        "https://www.universetoday.com/wp-content/uploads/2014/12/enceladusstripes_cassini_big-e1445285714763.jpg"
+                    ],
+                    orbit_distance_km: 147909,
+                    equatorial_diameter_km: 252.1,
+                    mass: "(1.08022±0.00101) × 1020kg (1.8×10−5 Earths)",
+                    orbit_period_in_days: 1.4,
+                    surface_temperature_max_celcius: -128,
+                    surface_temperature_min_celcius: -240,
+                    facts: [
+                        "Enceladus is the sixth-largest moon of Saturn. It is about 500 kilometers (310 mi) in diameter, about a tenth of that of Saturn's largest moon, Titan. Enceladus is mostly covered by fresh, clean ice, making it one of the most reflective bodies of the Solar System.",
+                        "The geyser observations, along with the finding of escaping internal heat and very few (if any) impact craters in the south polar region, show that Enceladus is currently geologically active. On June 27, 2018, scientists reported the detection of complex macromolecular organics on Enceladus's jet plumes, as sampled by the Cassini orbiter. These indicate potential hydrothermal activity on the moon driving complex chemistry",
+                        "Enceladus is named after the giant Enceladus of Greek mythology.[1] The name, like the names of each of the first seven satellites of Saturn to be discovered, was suggested by William Herschel's son John Herschel in his 1847 publication Results of Astronomical Observations made at the Cape of Good Hope.[34] He chose these names because Saturn, known in Greek mythology as Cronus, was the leader of the Titans.",
+                    ]
+                    },
+                    {
+                    name: "Tethys",
+                    position: 15,
+                    image_url: [
+                        "https://www.universetoday.com/wp-content/uploads/2012/04/tethys-4-14-12-melanthius.jpg",
+                        "https://www.geo.fu-berlin.de/geol/fachrichtungen/planet/press/archiv2015/cassini_tethys1/bild_orbit214_color-mosaic/orbit214_color-mosaic_546.png",
+                        "https://lh3.googleusercontent.com/proxy/uFTMScttTGUxz7ICf6GV3UIRCdFI_CHM-F_eCWDM1Q93QJvtcK4l7Hc7-y_Iv3zbqaSPggeS2phVbmC1Y7Q1tYkV5aks_XNJBc9J4i5ihA7Yi0yO4qEC"
+                    ],
+                    orbit_distance_km: 295000,
+                    equatorial_diameter_km: 1062,
+                    mass: "6.17 × 1020kg (0.000103 Earth mass)",
+                    orbit_period_in_days: 1.9,
+                    surface_temperature_max_celcius: -147,
+                    surface_temperature_min_celcius: -196,
+                    facts: [
+                        "Tethys, or Saturn III, is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.",
+                        "Tethys has a low density of 0.98 g/cm3, the lowest of all the major moons in the Solar System, indicating that it is made of water ice with just a small fraction of rock. This is confirmed by the spectroscopy of its surface, which identified water ice as the dominant surface material. A small amount of an unidentified dark material is present as well. The surface of Tethys is very bright, being the second-brightest of the moons of Saturn after Enceladus, and neutral in color.",
+                        "Tethys has been approached by several space probes including Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981), and multiple times by Cassini between 2004 and 2017.",
+                    ]
+                    },
+                    {
+                    name: "Dione",
+                    position: 18,
+                    image_url: [
+                        "https://cdn.britannica.com/20/3920-050-1D493D3F/moon-Dione-Saturn-distance-Voyager-1-NASA-November-10-1980.jpg",
+                        "https://cdn.britannica.com/74/145074-050-4D9110AA/Dione-image-moons-Saturn-spacecraft-Cassini-July-24-2006.jpg",
+                        "https://upload.wikimedia.org/wikipedia/commons/d/d0/Dione_in_natural_light_%28cropped%29.jpg"
+                    ],
+                    orbit_distance_km: 377400,
+                    equatorial_diameter_km: 1122.8,
+                    mass: "(1.095452±0.000168) × 1021kg (1.834×10−4 Earths)",
+                    orbit_period_in_days: 2.6,
+                    surface_temperature_max_celcius: -162,
+                    surface_temperature_min_celcius: -186,
+                    facts: [
+
+                        "Dione (/daɪˈoʊni/) is a moon of Saturn. It was discovered by Italian astronomer Giovanni Domenico Cassini in 1684.[10] It is named after the Titaness Dione of Greek mythology. It is also designated Saturn IV.",
+
+                        "At 1122 km (697 mi) in diameter, Dione is the 15th largest moon in the Solar System, and is more massive than all known moons smaller than itself combined.About two thirds of Dione's mass is water ice, and the remaining is a dense core, probably silicate rock.",
+
+                        "Giovanni Domenico Cassini named the four moons he discovered (Tethys, Dione, Rhea and Iapetus) Sidera Lodoicea ('the stars of Louis') to honor king Louis XIV. Cassini found Dione in 1684 using a large aerial telescope he set up on the grounds of the Paris Observatory. The satellites of Saturn were not named until 1847, when William Herschel's son John Herschel published Results of Astronomical Observations made at the Cape of Good Hope, suggesting that the names of the Titans (sisters and brothers of Cronus) be used.",
+                    ]
+                    },
+                    {
+                    name: "Rhea",
+                    position: 21,
+                    image_url: [
+                        "https://lh3.googleusercontent.com/proxy/X-2oz6cPPzS6ndNkDI3VsSmR8kkcSix9aPS6ZRe-QqIvYqAj9nOelnwZUxJy8KF5D20PdtxJ-1ZfCG6hh50i4A-i1QEr6DJ1y3uF5otGhaZS0js8",
+                        "https://solarsystem.nasa.gov/system/content_pages/main_images/805_PIA12648.jpg",
+                        "https://upload.wikimedia.org/wikipedia/commons/4/41/Rhea_%28moon%29.jpg"
+                    ],
+                    orbit_distance_km: 527068,
+                    equatorial_diameter_km: 1527.6,
+                    mass: "(2.306518±0.000353) × 1021kg (~3.9×10−4 Earths)",
+                    orbit_period_in_days: 4.5,
+                    surface_temperature_max_celcius: -174,
+                    surface_temperature_min_celcius: -220,
+                    facts: [
+                        "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System. It is the second smallest body in the Solar System for which precise measurements have confirmed a shape consistent with hydrostatic equilibrium, after dwarf planet Ceres. It was discovered in 1672 by Giovanni Domenico Cassini.",
+                        "Rhea is named after the Titan Rhea of Greek mythology, the 'mother of the gods' and wife of Kronos, the Greek counterpart of the god Saturn. It is also designated Saturn V (being the fifth major moon going outward from the planet, after Mimas, Enceladus, Tethys, and Dione).",
+                        "On March 6, 2008, NASA announced that Rhea may have a tenuous ring system. This would mark the first discovery of rings around a moon. The rings' existence was inferred by observed changes in the flow of electrons trapped by Saturn's magnetic field as Cassini passed by Rhea. Dust and debris could extend out to Rhea's Hill sphere, but were thought to be denser nearer the moon, with three narrow rings of higher density",
+                    ]
+                    },
+                    {
+                    name: "",
+                    position: 0,
                     image_url: [
                         "",
                         "",
@@ -497,29 +796,49 @@ db.solar_system.insertMany([
                         "",
                         "",
                     ]
-                }
+                    },
+                    {
+                    name: "",
+                    position: 0,
+                    image_url: [
+                        "",
+                        "",
+                        ""
+                    ],
+                    orbit_distance_km: 0,
+                    equatorial_diameter_km: 0,
+                    mass: "",
+                    orbit_period_in_days: 0,
+                    surface_temperature_max_celcius: 0,
+                    surface_temperature_min_celcius: 0,
+                    facts: [
+                        "",
+                        "",
+                        "",
+                    ]
+                    },
 
             ],
-            rings: 4,
-            orbit_period_days: 4333,
-            surface_temperature_max_celcius: -108,
-            surface_temperature_min_celcius: -161,
+            rings: 7,
+            orbit_period_days: 10756,
+            surface_temperature_max_celcius: -122,
+            surface_temperature_min_celcius: -185,
             facts: {
-                first: "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter.It is one of five planets visible to the naked eye from Earth.",
-                second: "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC.Jupiter is named after the king of the Roman gods.To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon.Germanic tribes saw this planet as Donar, or Thor.",
-                third: "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
-                fourth: "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
-                fifth: "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds.",
-                sixth: "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
-                seventh: "Jupiter’s interior is made of rock, metal, and hydrogen compounds. Below Jupiter’s massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
-                eighth: "Jupiter’s moon Ganymede is the largest moon in the solar system. Jupiter’s moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto Io and Europa. Ganymeade measures 5, 268 km across, making it larger than the planet Mercury.",
-                ninth: "Jupiter has a thin ring system. Its rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids.The ring system begins some 92, 000 kilometres above Jupiter’s cloud tops and stretches out to more than 225, 000 km from the planet.They are between 2, 000 to 12, 500 kilometres thick.",
-                tenth: "Eight spacecraft have visited Jupiter. Pioneer 10 and 11, Voyager 1 and 2, Galileo, Cassini, Ulysses, and New Horizons missions.The Juno mission is its way to Jupiter and will arrive in July 2016. Other future missions may focus on the Jovian moons Europa, Ganymede, and Callisto, and their subsurface oceans.",
-                eleventh: "Jupiter is sometimes considered a failed star. If Jupiter had become 80 times more massive, nuclear fusion would have occurred in its core. Had that happened, it would have become a star instead of a planet.",
-                twelfth: "Jupiter does not experience seasons like other planets such as Earth and Mars. This is because the axis is only tilted by 3.13 degrees.",
-                thirteenth: "Jupiter is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius.",
-                fourteenth: "The largest of Jupiter’s moons, Ganymede is the largest moon in the solar system. The moons are sometimes called the Jovian satellites and the largest of them are Ganymede, Callisto, Io and Europa. Ganymede is larger than the planet Mercury with a diameter of around 5,268 km.",
-                fifteenth: "Jupiter actually experiences the most intense auroras in the solar system, being hundreds of times brighter than on Earth. Just like on Earth, auroras on Jupiter are caused by solar storms. However, Jupiter has an additional source for its auroras: charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
+                first: "Saturn is the most distant planet that can be seen with the naked eye. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
+                second: "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus.",
+                third: "Saturn is the flattest planet. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second- shortest day of any of the solar system’s planets.",
+                fourth: "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians.The name means “oldest of the old”.",
+                fifth: "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice.Below them, the clouds are largely water ice.Below are layers of cold hydrogen and sulfur ice mixtures.",
+                sixth: "Saturn has oval-shaped storms similar to Jupiter’s. The region around its north pole has a hexagonal- shaped pattern of clouds.Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane- like storm.",
+                seventh: "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet.Eventually, deep inside, the hydrogen becomes metallic.At the core lies a hot interior.",
+                eighth: "Saturn has the most extensive rings in the solar system. The Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust.The rings stretch out more than 120, 700 km from the planet, but are amazingly thin: only about 20 meters thick.",
+                ninth: "Saturn has 150 moons and smaller moonlets. All are frozen worlds.The largest moons are Titan and Rhea.Enceladus appears to have an ocean below its frozen surface.",
+                tenth: "Titan is a moon with complex and dense nitrogen-rich atmosphere. It is composed mostly of water ice and rock.Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen.Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life",
+                eleventh: "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini- Huygens mission have all studied the planet.Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
+                twelfth: "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter.",
+                thirteenth: "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. Forty five years later, in 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, later proposed that Saturn had a thin, flat ring.",
+                fourteenth: "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed.",
+                fifteenth: "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward. Along with Jupiter, it might also have slung a barrage of debris toward the inner planets early in the system's history.",
 
             },
         },
@@ -543,152 +862,7 @@ db.solar_system.insertMany([
 
 
 
-//     {
-//         name: "Saturn",
-//         planet_intro: "",
-//         position_from_sun: 6,
-//         image_url: {
-//             first: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
-//             second: "https://i.pinimg.com/originals/aa/2f/78/aa2f78effbe107f23b6e5a3aebd4d563.jpg",
-//             third: "https://cdn.mos.cms.futurecdn.net/XFL6HquyTYfQH5L7ztttp3.jpg",
-//             forth: "https://i.pinimg.com/originals/f1/a4/22/f1a42242dbe3d614dc7f252198c3eee0.jpg",
-//             fifth: "https://i.pinimg.com/originals/55/d2/e0/55d2e0b23e378116cf04ea2ebe19f63f.jpg",
-//         },
-//         latin_name: "Saturnus",
-//         sumerian_name: "Ninurta",
-//         orbit_distance_km: 1426666422,
-//         orbit_distance_au: 9.58,
-//         equatorial_diameter_km: 120536,
-//         mass: "5.68 × 10^26 kg (95 Earths)",
-//         number_of_moons: 82,
-//         moon_names: {
-//             first: "S/2009 S 1",
-//             second: "Pan",
-//             third: "Daphnis",
-//             fourth: "Atlas",
-//             fifth: "Prometheus",
-//             sixth: "Pandora",
-//             seventh: "Epimetheus",
-//             eighth: "Janus",
-//             ninth: "Aegaeon",
-//             tenth: "Mimas",
-//             eleventh: "Methone",
-//             twelfth: "Anthe",
-//             thirteenth: "Pallene",
-//             fourteenth: "Enceladus",
-//             fifteenth: "Tethys",
-//             sixteen: "Telesto",
-//             seventeen: "Calypso",
-//             eighteen: "Dione",
-//             nineteen: "Helene",
-//             twentieth: "Polydeuces",
-//             twenty_one: "Rhea",
-//             twenty_two: "Titan",
-//             twenty_three: "Hyperion",
-//             twenty_four: "Iapetus",
-//             twenty_five: "Kiviuq",
-//             twenty_six: "Ijiraq",
-//             twenty_seven: "Phoebe",
-//             twenty_eight: "Paaliaq",
-//             twenty_nine: "Skathi",
-//             thirtieth: "S/2004 S 37",
-//             thirty_one: "S/2007 S 2",
-//             thirty_two: "Albiorix",
-//             thirty_three: "Bebhionn",
-//             thirty_four: "S/2004 S 29",
-//             thirty_five: "Skoll",
-//             thirty_six: "S/2004 S 31",
-//             thirty_seven: "Erriapus",
-//             thirty_eight: "Tarqeq",
-//             thirty_nine: "Siarnaq",
-//             fortieth: "Tarvos",
-//             forty_one: "Hyrrokkin",
-//             forty_two: "Greip",
-//             forty_three: "Mundilfari",
-//             forty_four: "S/2004 S 13",
-//             forty_five: "S/2006 S 1",
-//             forty_six: "S/2007 S 3",
-//             forty_seven: "Suttungr",
-//             forty_eight: "S/2004 S 20",
-//             forty_nine: "Jarnsaxa",
-//             fiftieth: "Narvi",
-//             fifty_one: "Bergelmir",
-//             fifty_two: "Hati",
-//             fifty_three: "S/2004 S 17",
-//             fifty_four: "S/2004 S 12",
-//             fifty_five: "S/2004 S 27",
-//             fifty_six: "Farbauti",
-//             fifty_seven: "Thrymr",
-//             fifty_eight: "Bestla",
-//             fifty_nine: "S/2004 S 7",
-//             sixtieth: "Aegir",
-//             sixty_one: "S/2004 S 30",
-//             sixty_two: "S/2004 S 22",
-//             sixty_three: "S/2004 S 25",
-//             sixty_four: "S/2004 S 32",
-//             sixty_five: "S/2004 S 23",
-//             sixty_six: "S/2006 S 3",
-//             sixty_seven: "S/2004 S 35",
-//             sixty_eight: "Kari",
-//             sixty_nine: "S/2004 S 28",
-//             seventieth: "Loge",
-//             seventy_one: "S/2004 S 38",
-//             seventy_two: "Fenrir",
-//             seventy_three: "Ymir",
-//             seventy_four: "Surtur",
-//             seventy_five: "S/2004 S 33",
-//             seventy_six: "S/2004 S 24",
-//             seventy_seven: "S/2004 S 21",
-//             seventy_eight: "S/2004 S 39",
-//             seventy_nine: "S/2004 S 36",
-//             eightieth: "Fornjot",
-//             eighty_one: "S/2004 S 34",
-//             eighty_two: "S/2004 S 26",
-//         },
-        // moon_list: [""],
-        //     sig_moons: [{
-        //         name: "",
-        //         position: 0,
-        //         image_url: [
-        //             "",
-        //             "",
-        //             ""
-        //         ],
-        //         orbit_distance_km: 0,
-        //         equatorial_diameter_km: 0,
-        //         mass: "",
-        //         orbit_period_in_days: 0,
-        //         surface_temperature_max_celcius: 0,
-        //         surface_temperature_min_celcius: 0,
-        //         facts: [
-        //             "",
-        //             "",
-        //             "",
-        //         ]
-        //     }],
-//         rings: 7,
-//         orbit_period_days: 10756,
-//         surface_temperature_max_celcius: -122,
-//         surface_temperature_min_celcius: -185,
-//         facts: {
-//             first: "Saturn is the most distant planet that can be seen with the naked eye. It is the fifth brightest object in the solar system and is also easily studied through binoculars or a small telescope.",
-//             second: "Saturn was known to the ancients, including the Babylonians and Far Eastern observers. It is named for the Roman god Saturnus, and was known to the Greeks as Cronus.",
-//             third: "Saturn is the flattest planet. Its polar diameter is 90% of its equatorial diameter, this is due to its low density and fast rotation.Saturn turns on its axis once every 10 hours and 34 minutes giving it the second- shortest day of any of the solar system’s planets.",
-//             fourth: "Saturn orbits the Sun once every 29.4 Earth years. Its slow movement against the backdrop of stars earned it the nickname of “Lubadsagush” from the ancient Assyrians.The name means “oldest of the old”.",
-//             fifth: "Saturn’s upper atmosphere is divided into bands of clouds. The top layers are mostly ammonia ice.Below them, the clouds are largely water ice.Below are layers of cold hydrogen and sulfur ice mixtures.",
-//             sixth: "Saturn has oval-shaped storms similar to Jupiter’s. The region around its north pole has a hexagonal- shaped pattern of clouds.Scientists think this may be a wave pattern in the upper clouds.The planet also has a vortex over its south pole that resembles a hurricane- like storm.",
-//             seventh: "Saturn is made mostly of hydrogen. It exists in layers that get denser farther into the planet.Eventually, deep inside, the hydrogen becomes metallic.At the core lies a hot interior.",
-//             eighth: "Saturn has the most extensive rings in the solar system. The Saturnian rings are made mostly of chunks of ice and small amounts of carbonaceous dust.The rings stretch out more than 120, 700 km from the planet, but are amazingly thin: only about 20 meters thick.",
-//             ninth: "Saturn has 150 moons and smaller moonlets. All are frozen worlds.The largest moons are Titan and Rhea.Enceladus appears to have an ocean below its frozen surface.",
-//             tenth: "Titan is a moon with complex and dense nitrogen-rich atmosphere. It is composed mostly of water ice and rock.Its frozen surface has lakes of liquid methane and landscapes covered with frozen nitrogen.Planetary scientists consider Titan to be a possible harbour for life, but not Earth-like life",
-//             eleventh: "Four spacecraft have visited Saturn. Pioneer 11, Voyager 1 and 2, and the Cassini- Huygens mission have all studied the planet.Cassini orbited Saturn from July 2004 until September 2017, sending back a wealth of data about the planet, its moons, and rings.",
-//             twelfth: "Saturn has more moons than any other planet. 20 new moons were discovered in 2019 bring the total to 82, 3 more than Jupiter.",
-//             thirteenth: "Galileo Galilei was the first to see Saturn's rings in 1610, although from his telescope the rings looked more like handles or arms. Forty five years later, in 1655, Dutch astronomer Christiaan Huygens, who had a more powerful telescope, later proposed that Saturn had a thin, flat ring.",
-//             fourteenth: "Though scientists have identified many moons, Saturn has other small moons constantly being created and destroyed.",
-//             fifteenth: "As the most massive planet in the solar system after Jupiter, the pull of Saturn's gravity has helped shape the fate of our solar system. It may have helped violently hurl Neptune and Uranus outward. Along with Jupiter, it might also have slung a barrage of debris toward the inner planets early in the system's history.",
-
-//         },
-//     },
+/
 
 //     {
 //         name: "Uranus",
