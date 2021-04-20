@@ -1,1 +1,0 @@
-// Top Trumps Logic for space app
