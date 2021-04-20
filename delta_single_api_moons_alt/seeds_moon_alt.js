@@ -876,7 +876,7 @@ db.solar_system.insertMany([
 
                 ],
             },
-            
+
             {
 
                 name: "Uranus",
@@ -1122,86 +1122,86 @@ db.solar_system.insertMany([
                 sig_moon_number: 2,
                 sig_moons: [
                     {
-                    name: "Triton",
-                    position: 8,
-                    image_url: [
-                        "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
-                        "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
-                        "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
-                    ],
-                    orbit_distance_km: 354800,
-                    equatorial_diameter_km: 2706.8,
-                    mass: "(3.076±0.087)×1021 kg",
-                    orbit_period_in_days: 5.875,
-                    surface_temperature_max_celcius: null,
-                    surface_temperature_min_celcius: -235.2,
-                    facts: [
+                        name: "Triton",
+                        position: 8,
+                        image_url: [
+                            "https://www.thefactsite.com/wp-content/uploads/2019/10/triton-facts.jpg",
+                            "https://cdn.mos.cms.futurecdn.net/fxdQJeaQN5WCBJzWBeUzqR.jpg",
+                            "https://lh3.googleusercontent.com/proxy/XCnbZ8qks7YrGeC78zl1ZL78trXQiFQgBkcN98PMQc8Nsb_2R7J_eHaET4jA5sw1nNjBFbVTBbi0elDzNrtqimzq0lcqBzXvMYwKiykFNQ22jGvsTxk"
+                        ],
+                        orbit_distance_km: 354800,
+                        equatorial_diameter_km: 2706.8,
+                        mass: "(3.076±0.087)×1021 kg",
+                        orbit_period_in_days: 5.875,
+                        surface_temperature_max_celcius: null,
+                        surface_temperature_min_celcius: -235.2,
+                        facts: [
 
-                        "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
+                            "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered. The discovery was made on October 10, 1846, by English astronomer William Lassell. It is the only large moon in the Solar System with a retrograde orbit, an orbit in the direction opposite to its planet's rotation",
 
-                        "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
+                            "Triton is one of the few moons in the Solar System known to be geologically active (the others being Jupiter's Io and Europa, and Saturn's Enceladus and Titan). As a consequence, its surface is relatively young, with few obvious impact craters.",
 
-                        "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
-                    ]
+                            "Triton is named after the Greek sea god Triton, the son of Poseidon (the Greek god corresponding to the Roman Neptune). The name was first proposed by Camille Flammarion in his 1880 book Astronomie Populaire and was officially adopted many decades later. Until the discovery of the second moon Nereid in 1949, Triton was commonly referred to as 'the satellite of Neptune'. Lassell did not name his own discovery; he later successfully suggested the name Hyperion, previously chosen by John Herschel, for the eighth moon of Saturn when he discovered it",
+                        ]
                     },
                     {
-                    name: "Nereid",
-                    position: 9,
-                    image_url: [
-                        "https://i0.wp.com/www.astronomylovers.com/wp-content/uploads/2020/05/nereid.jpg?fit=915%2C610&ssl=1",
-                        "https://alchetron.com/cdn/nereid-moon-b0865733-0957-4aba-9a35-ca89160e525-resize-750.jpeg",
-                        "https://ak.picdn.net/shutterstock/videos/1018915744/thumb/1.jpg"
-                    ],
-                    orbit_distance_km: 5513400,
-                    equatorial_diameter_km: 340,
-                    mass: "3.1×1019",
-                    orbit_period_in_days: 360,
-                    surface_temperature_max_celcius: -223.15,
-                    surface_temperature_min_celcius: null,
-                    facts: [
+                        name: "Nereid",
+                        position: 9,
+                        image_url: [
+                            "https://i0.wp.com/www.astronomylovers.com/wp-content/uploads/2020/05/nereid.jpg?fit=915%2C610&ssl=1",
+                            "https://alchetron.com/cdn/nereid-moon-b0865733-0957-4aba-9a35-ca89160e525-resize-750.jpeg",
+                            "https://ak.picdn.net/shutterstock/videos/1018915744/thumb/1.jpg"
+                        ],
+                        orbit_distance_km: 5513400,
+                        equatorial_diameter_km: 340,
+                        mass: "3.1×1019",
+                        orbit_period_in_days: 360,
+                        surface_temperature_max_celcius: -223.15,
+                        surface_temperature_min_celcius: null,
+                        facts: [
 
-                        "Nereid was discovered on 1 May 1949 by Gerard P. Kuiper on photographic plates taken with the 82-inch telescope at the McDonald Observatory. He proposed the name in the report of his discovery. It is named after the Nereids, sea-nymphs of Greek mythology and attendants of the god Neptune. It was the second and last moon of Neptune to be discovered before the arrival of Voyager 2 (not counting a single observation of an occultation by Larissa in 1981).",
+                            "Nereid was discovered on 1 May 1949 by Gerard P. Kuiper on photographic plates taken with the 82-inch telescope at the McDonald Observatory. He proposed the name in the report of his discovery. It is named after the Nereids, sea-nymphs of Greek mythology and attendants of the god Neptune. It was the second and last moon of Neptune to be discovered before the arrival of Voyager 2 (not counting a single observation of an occultation by Larissa in 1981).",
 
-                        "Spectrally, Nereid appears neutral in colour and water ice has been detected on its surface. Its spectrum appears to be intermediate between Uranus's moons Titania and Umbriel, which suggests that Nereid's surface is composed of a mixture of water ice and some spectrally neutral material. The spectrum is markedly different from minor planets of the outer solar system, centaurs Pholus, Chiron and Chariklo, suggesting that Nereid formed around Neptune rather than being a captured body.",
+                            "Spectrally, Nereid appears neutral in colour and water ice has been detected on its surface. Its spectrum appears to be intermediate between Uranus's moons Titania and Umbriel, which suggests that Nereid's surface is composed of a mixture of water ice and some spectrally neutral material. The spectrum is markedly different from minor planets of the outer solar system, centaurs Pholus, Chiron and Chariklo, suggesting that Nereid formed around Neptune rather than being a captured body.",
 
-                        "Nereid's orbit is the most eccentric in the solar system. Its distance to Neptune ranges from about 1,353,600 kilometers (841,100 miles) to 9,623,700 kilometers (5,980,200 miles).",
-                    ]
+                            "Nereid's orbit is the most eccentric in the solar system. Its distance to Neptune ranges from about 1,353,600 kilometers (841,100 miles) to 9,623,700 kilometers (5,980,200 miles).",
+                        ]
                     }
-            ],
+                ],
                 rings: 6,
                 orbit_period_days: 60190,
                 surface_temperature_max_celcius: -201,
                 surface_temperature_min_celcius: -218,
                 facts: [
-                    
+
                     "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions.It was named after the Roman god of the sea.",
-                    
+
                     "Neptune has 6 faint rings. However, one of the rings was only discovered very recently by Voyager 2 and there is debate in the scientic community regarding if the 6th ring is in fact a ring that seperates and rejoins on occaion",
-                    
+
                     "Neptune spins on its axis very rapidly. Its equatorial clouds take 16 hours to make one rotation.This is because Neptune is not solid body.",
-                    
+
                     "Neptune is the smallest of the ice giants. Despite being smaller than Uranus, Neptune has a greater mass.Below its heavy atmosphere, Uranus is made of layers of hydrogen, helium, and methane gases.They enclose a layer of water, ammonia and methane ice.The inner core of the planet is made of rock.",
-                    
+
                     "The atmosphere of Neptune is made of hydrogen and helium, with some methane. The methane absorbs red light, which makes the planet appear a lovely blue.High, thin clouds drift in the upper atmosphere.",
-                    
+
                     "Neptune has a very active climate. Large storms whirl through its upper atmosphere, and high- speed winds track around the planet at up 600 meters per second.One of the largest storms ever seen was recorded in 1989. It was called the Great Dark Spot.It lasted about five years.",
-                    
+
                     "Neptune has a very thin collection of rings. They are likely made up of ice particles mixed with dust grains and possibly coated with a carbon- based substance.",
-                    
+
                     "Neptune has 14 moons. The most interesting moon is Triton, a frozen world that is spewing nitrogen ice and dust particles out from below its surface.It was likely captured by the gravitational pull of Neptune.It is probably the coldest world in the solar system.",
-                    
+
                     "Only one spacecraft has flown by Neptune. In 1989, the Voyager 2 spacecraft swept past the planet.It returned the first close- up images of the Neptune system.The NASA/ ESA Hubble Space Telescope has also studied this planet, as have a number of ground - based telescopes",
-                    
+
                     "The Great Dark Spot in the southern atmosphere of Neptune was first discovered in 1989 by the Voyager 2 spacecraft. It was an incredibly large rotating storm system with winds of up to 1,500 miles per hour, the strongest winds recorded on any planet. How such powerful winds were discovered on a planet so far from the sun is still considered a mystery to this day.",
-                    
+
                     "Data from the Voyager 2 spacecraft also showed that the Great Dark Spot varied significantly in size during their brief pass of the planet. When Neptune was viewed by the Hubble Space telescope in 1994 the Great Dark Spot had vanished, although a different dark spot had appeared in Neptune’s northern hemisphere.",
-                    
+
                     "Neptune has an incredibly thick atmosphere comprised of 74% hydrogen, 25% helium and approximately 1% methane. Its atmosphere also contains icy clouds and the fastest winds recorded in the solar system. Particles of icy methane and minor gases in the extremities of the atmosphere give Neptune its deep blue colour. The striking blue and white features of Neptune also help to distinguish it from Uranus.",
-                    
+
                     "Neptune’s atmosphere is subdivided into the lower troposphere and the stratosphere with the tropopause being the boundary between the two. In the lower troposphere temperatures decrease with altitude however they increase with altitude in the stratosphere. Hydrocarbons form hazes of smog that appear in the entire upper atmosphere of Neptune and hydrocarbon snowflakes that form in Neptune’s atmosphere melt before they reach its surface due to the high pressure.",
-                    
+
                     "Like the other outer planets, Neptune possesses a ring system, though its rings are very faint. They are most likely made up of ice particles and grains of dust with a carbon-based substance coating them.",
-                    
+
                     "The largest Neptunian moon, Triton, was discovered just 17 days after Neptune itself was discovered.",
 
                 ],
@@ -1235,27 +1235,27 @@ db.solar_system.insertMany([
                 sig_moon_number: 1,
                 sig_moons: [
                     {
-                    name: "Charon",
-                    position: 1,
-                    image_url: [
-                        "https://solarsystem.nasa.gov/system/content_pages/main_images/538_PIA19968.jpg",
-                        "https://cdn.mos.cms.futurecdn.net/9v3Jyf9Zd24LZo4xKkwYe6.jpg",
-                        "https://img.etimg.com/thumb/width-640,height-480,imgsize-60269,resizemode-1,msid-49194064/news/science/nasa-captures-plutos-moon-charon-in-stunning-detail.jpg"
-                    ],
-                    orbit_distance_km: 17536,
-                    equatorial_diameter_km: 1212,
-                    mass: "(1.586±0.015) × 1021kg (2.66×10−4 Earths)",
-                    orbit_period_in_days: 6.387,
-                    surface_temperature_max_celcius: -213,
-                    surface_temperature_min_celcius: -240,
-                    facts: [
+                        name: "Charon",
+                        position: 1,
+                        image_url: [
+                            "https://solarsystem.nasa.gov/system/content_pages/main_images/538_PIA19968.jpg",
+                            "https://cdn.mos.cms.futurecdn.net/9v3Jyf9Zd24LZo4xKkwYe6.jpg",
+                            "https://img.etimg.com/thumb/width-640,height-480,imgsize-60269,resizemode-1,msid-49194064/news/science/nasa-captures-plutos-moon-charon-in-stunning-detail.jpg"
+                        ],
+                        orbit_distance_km: 17536,
+                        equatorial_diameter_km: 1212,
+                        mass: "(1.586±0.015) × 1021kg (2.66×10−4 Earths)",
+                        orbit_period_in_days: 6.387,
+                        surface_temperature_max_celcius: -213,
+                        surface_temperature_min_celcius: -240,
+                        facts: [
 
-                        "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
+                            "With half the diameter and one eighth the mass of Pluto, Charon is a very large moon in comparison to its parent body. Its gravitational influence is such that the barycenter of the Plutonian system lies outside Pluto. This has led to the argument that Pluto–Charon is sometimes considered a double dwarf planet",
 
-                        "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
+                            "Charon and Pluto orbit each other every 6.387 days. The two objects are gravitationally locked to one another, so each keeps the same face towards the other. This is a case of mutual tidal locking, as compared to that of the Earth and the Moon, where the Moon always shows the same face to Earth, but not vice versa.",
 
-                        "The New Horizons spacecraft is the only probe that has visited the Pluto system. It approached Charon to within 27,000 km (17,000 mi) in 2015. In a released photo by New Horizons, an unusual surface feature has captivated and baffled the scientist team of the mission. The image reveals a mountain rising out of a depression, described as 'a large mountain sitting in a moat'.",
-                    ]
+                            "The New Horizons spacecraft is the only probe that has visited the Pluto system. It approached Charon to within 27,000 km (17,000 mi) in 2015. In a released photo by New Horizons, an unusual surface feature has captivated and baffled the scientist team of the mission. The image reveals a mountain rising out of a depression, described as 'a large mountain sitting in a moat'.",
+                        ]
                     }
                 ],
                 rings: 0,
@@ -1263,53 +1263,53 @@ db.solar_system.insertMany([
                 surface_temperature_max_celcius: -223,
                 surface_temperature_min_celcius: -233,
                 facts: [
-                    
+
                     "Discovered in 1930, Pluto is the second closest dwarf planet to the Sun and was at one point classified as the ninth planet. Pluto is the largest dwarf planet but only the second most massive, with Eris being the most massive",
-                    
+
                     "Pluto is named after the Roman god of the underworld. This was proposed by Venetia Burney an eleven year old schoolgirl from Oxford, England.",
-                    
+
                     "Pluto was reclassified from a planet to a dwarf planet in 2006. This is when the IAU formalised the definition of a planet as “A planet is a celestial body that(a) is in orbit around the Sun, (b) has sufficient mass for its self- gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium(nearly round) shape, and(c) has cleared the neighbourhood around its orbit.”",
-                    
+
                     "Pluto was discovered on February 18th, 1930 by the Lowell Observatory. For the 76 years between Pluto being discovered and the time it was reclassified as a dwarf planet it completed under a third of its orbit around the Sun.",
-                    
+
                     "Pluto has five known moons. The moons are Charon(discovered in 1978,), Hydra and Nix(both discovered in 2005), Kerberos originally P4(discovered 2011) and Styx originally P5(discovered 2012) official designations S / 2011(134340) 1 and  S / 2012(134340) 1",
-                    
+
                     "Pluto is one third water. This is in the form of water ice which is more than 3 times as much water as in all the Earth’s oceans, the remaining two thirds are rock.Pluto’s surface is covered with ices, and has several mountain ranges, light and dark regions, and a scattering of craters.",
-                    
+
                     "Pluto is smaller than a number of moons. These are Ganymede, Titan, Callisto, Io, Europa, Triton, and the Earth’s moon.Pluto has 66% of the diameter of the Earth’s moon and 18% of its mass.While it is now confirmed that Pluto is the largest dwarf planet for around 10 years it was thought that this was Eris.",
-                    
+
                     "Pluto has a eccentric and inclined orbit. This takes it between 4.4 and 7.3 billion km from the Sun meaning Pluto is periodically closer to the Sun than Neptune.",
-                    
+
                     "Pluto has been visited by one spacecraft. The New Horizons spacecraft, which was launched in 2006, flew by Pluto on the 14th of July 2015 and took a series of images and other measurements.New Horizons is now on its way to the Kuiper Belt to explore even more distant objects.",
-                    
+
                     "Pluto’s location was predicted by Percival Lowell in 1915. The prediction came from deviations he initially observed in 1905 in the orbits of Uranus and Neptune.",
-                    
+
                     "Pluto sometimes has an atmosphere. When Pluto elliptical orbit takes it closer to the Sun, its surface ice thaws and forms a thin atmosphere primarily of nitrogen which slowly escapes the planet.It also has a methane haze that overs about 161 kilometres above the surface.The methane is dissociated by sunlight into hydrocarbons that fall to the surface and coat the ice with a dark covering.When Pluto travels away from the Sun the atmosphere then freezes back to its solid state.",
-                    
+
                     "In 2006, Pluto was reclassified as a dwarf planet, a change widely thought of as a demotion. The question of Pluto's planet status has attracted controversy and stirred debate in the scientific community, and among the general public, since then. In 2017, a science group (including members of the New Horizon mission) proposed a new definition of planethood based on 'round objects in space smaller than stars,' which would make the number of planets in our solar system expand from 8 to roughly 100.",
-                    
+
                     "Observations of Pluto's surface by the New Horizons spacecraft revealed a variety of surface features, including mountains that reach as high as 11,000 feet (3,500 meters), comparable to the Rocky Mountains on Earth. While methane and nitrogen ice cover much of the surface of Pluto, these materials are not strong enough to support such enormous peaks, so scientists suspect that the mountains are formed on a bedrock of water ice.",
-                    
+
                     "Pluto's surface is also covered in an abundance of methane ice, but New Horizons scientists have observed significant differences in the way the ice reflects light across the dwarf planet's surface. The dwarf planet also possesses ice ridge terrain that appears to look like a snakeskin; astronomers spotted similar features to Earth's penitentes, or erosion-formed features on mountainous terrain. The Pluto features are much larger; they are estimated at 1,650 feet (500 m) tall, while the Earth features are only a few meters in size.",
-                    
+
                     "Another distinct feature on Pluto's surface is a large heart-shaped region known unofficially as Tombaugh Regio (after Clyde Tombaugh; regio is Latin for region). The left side of the region (an area that takes on the shape of an ice cream cone) is covered in carbon monoxide ice. Other variations in the composition of surface materials have been identified within the 'heart' of Pluto.",
 
                 ],
             },
-        
-    ],
 
-    stars: [
+        ],
 
-    ],
+        stars: [
 
-    satellites: [
+        ],
 
-    ],
+        satellites: [
 
-    planetoids: [
+        ],
 
-    ],
+        planetoids: [
 
-}
+        ],
+
+    }
 ])
