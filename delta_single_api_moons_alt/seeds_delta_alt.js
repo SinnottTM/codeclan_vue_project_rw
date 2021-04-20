@@ -1225,7 +1225,7 @@ db.solar_system.insertMany([
                 equatorial_diameter_km: 2372,
                 mass: "12.5 x 1021kg (0.0021 x Earth's)",
                 number_of_moons: 5,
-                mmoon_list: [
+                moon_list: [
                     "Charon",
                     "Styx",
                     "Nix",
