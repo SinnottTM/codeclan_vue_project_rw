@@ -446,7 +446,7 @@ db.solar_system.insertMany([
 
                                 "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
 
-                                "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features. ",
+                                "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
 
                             ]
                         },
@@ -496,7 +496,7 @@ db.solar_system.insertMany([
 
                                 "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
 
-                                "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa.",
+                                "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa",
 
                             ]
                         },
@@ -523,7 +523,8 @@ db.solar_system.insertMany([
 
                                 "The likely presence of an ocean within Callisto leaves open the possibility that it could harbor life. However, conditions are thought to be less favorable than on nearby Europa.[23] Various space probes from Pioneers 10 and 11 to Galileo and Cassini have studied Callisto. Because of its low radiation levels, Callisto has long been considered the most suitable place for a human base for future exploration of the Jovian system.",
                             ]
-                        }]
+                        }
+                    ]
                 },
                 rings: 4,
                 orbit_period_days: 4333,
@@ -539,7 +540,7 @@ db.solar_system.insertMany([
 
                     "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
 
-                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds.",
+                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
 
                     "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
 
@@ -830,7 +831,6 @@ db.solar_system.insertMany([
                                 "The orbit of Iapetus is somewhat unusual. Although it is Saturn's third-largest moon, it orbits much farther from Saturn than the next closest major moon, Titan. It has also the most inclined orbital plane of the regular satellites; only the irregular outer satellites like Phoebe have more inclined orbits. Because of this distant, inclined orbit, Iapetus is the only large moon from which the rings of Saturn would be clearly visible; from the other inner moons, the rings would be edge-on and difficult to see.",
                             ]
                         },
-
                     ]
                 },
                 rings: 7,
@@ -1292,24 +1292,36 @@ db.solar_system.insertMany([
             },
 
         ],
-
         sun: {
-            name: "Sol",
+            name: "Sun",
             star_intro: "",
             image_url: [
-                "",
-                "",
-                "",
-                "",
-                "",
+                "https://www.extremetech.com/wp-content/uploads/2020/01/NASA-Sun.jpg",
+                "https://cdn.cnn.com/cnnnext/dam/assets/150216005531-vo-nasa-solar-dynamics-observatory-5-years-00011523.jpg",
+                "https://apod.nasa.gov/apod/image/1907/SpotlessSunIss_Colacurcio_2048.jpg",
+                "https://static.bhphotovideo.com/explora/sites/default/files/styles/top_shot/public/ts-space-sun-and-solar-viewing-facts-versus-fiction.jpg?itok=gaBs6QMS",
+                "https://d2r55xnwy6nx47.cloudfront.net/uploads/2018/07/SolarFull_SeanDoran_2880FullwidthLede.jpg",
             ],
-            latin_name: "",
-            sumerian_name: "",
-            equatorial_diameter_km: 0,
-            mass: "",
-            surface_temperature_max_celcius: 0,
-            surface_temperature_min_celcius: 0,
-            facts: []
+            latin_name: "Solis",
+            sumerian_name: "Ud",
+            equatorial_diameter_km: 1391016,
+            mass: "1.4 x 1029 kg + 3.0 x 1032 kg",
+            surface_temperature_max_celcius: 100000,
+            surface_temperature_min_celcius: 5504.85,
+            internal_temperature_celcius: 14999982.222,
+            facts: [
+                "The Sun accounts for 99.86% of the mass in the solar system.", 
+
+                "One day the Sun will consume the Earth.",
+
+                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range.",
+
+                "The size of the Sun compared to the largest known stars (red giants) is not very big. However, if compared to the most common type of star in the universe, the red dwarf, the Sun is quite a bit larger. Thus, the Sun is not the biggest type of star in the universe, but it is definitely larger than most.",
+
+                "As far as the Sun’s mass compared to other bodies found in our solar system, the Sun is easily the most massive. The Sun alone contains 99.8% of the total mass in the Solar System. In terms of size, the Sun has a diameter of roughly 1.4 million kilometers(870, 000 miles).To put this in perspective, this is almost 110 times the diameter of the Earth.What this means is that about one million Earth’s could fit inside the Sun.",
+
+                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature."
+            ]
         },
         satellites: [],
         planetoids: [],
