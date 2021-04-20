@@ -9,7 +9,7 @@ db.solar_system.insertMany([
             {
 
                 name: "Mercury",
-                planet_intro: "Mercury, named for its incredibly speed of orbit around the sun, was once believed by ancient civilizations to be two different planets – one which appeared in the morning and another which appeared in the evening. The Sumerians were the first to document it as one, very swift planet around 3000BC",
+                planet_intro: "Mercury, named for its incredibly speed of orbit around the sun, was once believed by ancient civilizations to be two different planets – one which appeared in the morning and another which appeared in the evening. The Sumerians were the first to document it as one, very swift planet around 3000BC.",
                 position_from_sun: 1,
                 image_url: [
                     "https://scitechdaily.com/images/Iridescent-Mercury.jpg",
@@ -40,7 +40,7 @@ db.solar_system.insertMany([
 
                     "A year on this planet is 88 days, yet a day is 176 of our days. This planet is also nearly tidally locked to the Sun – also known as a gravitational lock – and over time this has slowed the rotation of the planet to almost match its orbit around the Sun.",
 
-                    "Not only is this planet the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day.It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
+                    "Not only is this planet the smallest planet, it is also shrinking. In a very, very slow process, it is getting smaller every day. It is estimated that the planet is about 9 miles smaller than it was four billion years ago(we told you it was a slow process). Astronomers believe this is happening because it’s iron core is cooling, which is making it solid, therefore reducing the planet’s volume.",
 
                     "This planet is the smallest planet in the solar system with a diameter of 4879 km and is one of five planets that is visible to the naked eye.",
 
@@ -48,21 +48,21 @@ db.solar_system.insertMany([
 
                     "This planet is named after the messenger of the Roman gods, who is also known as Hermes in Greek mythology.This is because of the speed in which this planet orbits the Sun and the speed with which the Roman deity was able to deliver messages.",
 
-                    "Modern astronomers didn’t consider that this planet to be a planet at all until 1543 when Copernicus published his Sun- centered model of the Solar System – putting the Sun as the centre of the solar system rather than the previously believed centre, our home planet.",
+                    "Modern astronomers didn’t consider that this planet to be a planet at all until 1543 when Copernicus published his Sun-centered model of the Solar System, which put the Sun as the centre of the solar system rather than the previously believed centre, our home planet.",
 
-                    "The planet has just 38% of the gravity on our home planet.This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites – replenishing the atmosphere.",
+                    "The planet has just 38% of the gravity on our home planet. This means that it isn’t able to hold the atmosphere it has and it instead gets blown away by solar winds. However those same solar winds are also bringing in new gases, radioactive decay and dust from micrometeorites which replenishes the atmosphere.",
 
-                    "This planet has no moons or rings because of it's low gravity and lack of atmosphere.",
+                    "This planet has no moons or rings because of it's low gravity and lack of consistent atmosphere. The only other planet with no moons is Venus.",
 
-                    "It was once believed that a planet called Vulcan existed between the orbit of this planet and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from",
+                    "It was once believed that a planet called Vulcan existed between the orbit of this planet and the Sun – however the existence of such a planet was never found. This is where the idea for the planet Vulcan in Star Trek comes from,",
 
                     "The orbit of this planet is an ellipse rather than circular. It has the most eccentric orbit in the solar system and the least circular of all of the planets, according to scientists and astronomers.",
 
-                    "This planet is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures.This is because this planet has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
+                    "This planet is only the second hottest planet. It's nearest neighbor, though farther from the Sun than it, actually experiences higher temperatures. This is because this planet has no atmosphere to regulate temperature and results in the most extreme temperature change of all the planets, ranging from -170°C(-280°F) during the night to 430°C(800°F) during the day.",
 
                     "This planet does not experience any seasons. The axis of this planet has the smallest tilt of all other planets, and this results in a lack of seasons on its surface.",
 
-                    "This planet is the only planet which doesn’t rotate exactly once every year – instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
+                    "This planet is the only planet which doesn’t rotate exactly once every year, instead rotating three times for every two orbits of the Sun. This is because it is nearly tidally locked to the Sun.",
 
                     "The orbit of this planet was important in proving Albert Einstein’s theory of General Relativity and is referenced in several of the physicists studies and mathematical arguments as cosmic proof of relativity in action, due to its orbit, speed and more complex mathematical truths.",
                 ]
