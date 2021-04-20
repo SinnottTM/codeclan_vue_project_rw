@@ -182,7 +182,7 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -88,
                 facts: [
 
-                    "This planet was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that this planet was static and had other celestial bodies travelling in circular orbits around it. They believed this because of the apparent movement on the Sun and planets in relation to their viewpoint. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
+                    "This planet was once believed to be the centre of the universe. For 2000 years ancient astronomers believed that this planet was static and had other celestial bodies travelling in circular orbits around it. In 1543, Copernicus published his Sun-centered model of the Solar System which put the Sun at the centre of our solar system instead.",
 
                     "This planet is the only planet not named for a mythological god or goddess. The other seven planets in the solar system were named after Roman gods or goddesses. The five visible to the naked eye were named during ancient times. This Roman method was also used after the discovery of later planets. This planets name comes from the Old English and means ground or land.",
 
@@ -442,11 +442,11 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -130,
                             facts: [
 
-                                "It was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers.",
+                                "Io was discovered in 1610 by Galileo Galilei and was named after the mythological character Io, a priestess of Hera who became one of Zeus's lovers. Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface.",
 
-                                "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide. It has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.",
+                                "Unlike most moons in the outer Solar System, which are mostly composed of water ice, Io is primarily composed of silicate rock surrounding a molten iron or iron sulfide core. Most of Io's surface is composed of extensive plains with a frosty coating of sulfur and sulfur dioxide.",
 
-                                "Features on Io are named after characters and places from the Io myth, as well as deities of fire, volcanoes, the Sun, and thunder from various myths, and characters and places from Dante's Inferno: names appropriate to the volcanic nature of the surface. Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
+                                "Io has the hottest surface of any planetary body in our solar system, due to a mix of extreme radiation, volcanic activity and unique atmosphere make-up which includes a large plasma torus thanks to the influence of Jupiter.Since the surface was first seen up close by Voyager 1, the International Astronomical Union has approved 225 names for Io's volcanoes, mountains, plateaus, and large albedo features.",
 
                             ]
                         },
@@ -492,11 +492,11 @@ db.solar_system.insertMany([
                             surface_temperature_min_celcius: -113,
                             facts: [
 
-                                "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. It has a diameter of 5,268 km (3,273 mi), making it 26% larger than the planet Mercury by volume, although it is only 45% as massive. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field. Outward from Jupiter, it is the seventh satellite and the third of the Galilean moons, the first group of objects discovered orbiting another planet. Ganymede orbits Jupiter in roughly seven days and is in a 1:2:4 orbital resonance with the moons Europa and Io, respectively.",
+                                "Ganymede is a satellite of Jupiter (Jupiter III) and is the largest and most massive of the Solar System's moons. The ninth-largest object in the Solar System, it is the largest without a substantial atmosphere. Possessing a metallic core, it has the lowest moment of inertia factor of any solid body in the Solar System and is the only moon known to have a magnetic field.",
 
-                                "Ganymede is composed of approximately equal amounts of silicate rock and water. It is a fully differentiated body with an iron-rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined. Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
+                                "Its surface is composed of two main types of terrain. Dark regions, saturated with impact craters and dated to four billion years ago, cover about a third of it. Lighter regions, crosscut by extensive grooves and ridges and only slightly less ancient, cover the remainder. The cause of the light terrain's disrupted geology is not fully known, but was likely the result of tectonic activity due to tidal heating.",
 
-                                "The Europa Jupiter System Mission (EJSM) had a proposed launch date in 2020, and was a joint NASA and ESA proposal for exploration of many of Jupiter's moons including Ganymede. In February 2009 it was announced that ESA and NASA had given this mission priority ahead of the Titan Saturn System Mission. EJSM consisted of the NASA-led Jupiter Europa Orbiter, the ESA-led Jupiter Ganymede Orbiter, and possibly a JAXA-led Jupiter Magnetospheric Orbiter. ESA's contribution faced funding competition from other ESA projects but on May 2, 2012 the European part of the mission, renamed Jupiter Icy Moon Explorer (JUICE), obtained a L1 launch slot in 2022 with an Ariane 5 in the ESA's Cosmic Vision science programme. The spacecraft will orbit Ganymede and conduct multiple flyby investigations of Callisto and Europa",
+                                "Ganymede is composed of approximately equal amounts of silicate rock and water.It is a fully differentiated body with an iron- rich, liquid core, and an internal ocean that may contain more water than all of Earth's oceans combined."
 
                             ]
                         },
@@ -532,21 +532,21 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -161,
                 facts: [
 
-                    "Jupiter is the fourth brightest object in the solar system. Only the Sun, Moon and Venus are brighter.It is one of five planets visible to the naked eye from Earth.",
+                    "This planet is the fourth brightest object in the solar system. Only the Sun, Moon and the 2nd planet from the sun are brighter. It is one of five planets visible to the naked eye from our home planet.",
 
-                    "The ancient Babylonians were the first to record their sightings of Jupiter. This was around the 7th or 8th century BC.Jupiter is named after the king of the Roman gods.To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw Jupiter as the god Marduk and patron of the city of Babylon.Germanic tribes saw this planet as Donar, or Thor.",
+                    "The ancient Babylonians were the first to record their sightings of this planet. This was around the 7th or 8th century BC. This planet is named after the king of the Roman gods. To the Greeks, it represented Zeus, the god of thunder.The Mesopotamians saw this planet as the god Marduk and patron of the city of Babylon. Germanic tribes saw this planet as Donar, or Thor.",
 
-                    "Jupiter has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
+                    "This planet has the shortest day of all the planets. It turns on its axis once every 9 hours and 55 minutes.The rapid rotation flattens the planet slightly, giving it an oblate shape.",
 
-                    "Jupiter orbits the Sun once every 11.8 Earth years. From our point of view on Earth, it appears to move slowly in the sky, taking months to move from one constellation to another.",
+                    "This planet orbits the Sun once every 11.8 of our home planets years. From our point of view on our home planet, it appears to move slowly in the sky, taking months to move from one constellation to another.",
 
-                    "Jupiter has unique cloud features. The upper atmosphere of Jupiter is divided into cloud belts and zones.They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
+                    "This planet has unique cloud features. The upper atmosphere of this planet is divided into cloud belts and zones. They are made primarily of ammonia crystals, sulfur, and mixtures of the two compounds",
 
-                    "The Great Red Spot is a huge storm on Jupiter. It has raged for at least 350 years.It is so large that three Earths could fit inside it.",
+                    "The Great Red Spot is a huge storm on this planet. It has raged for at least 350 years.It is so large that three of our home planets could fit inside it.",
 
-                    "Jupiter’s interior is made of rock, metal, and hydrogen compounds. Below Jupiter’s massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
+                    "This planets interior is made of rock, metal, and hydrogen compounds. Below this planets massive atmosphere(which is made primarily of hydrogen), there are layers of compressed hydrogen gas, liquid metallic hydrogen, and a core of ice, rock, and metals.",
 
-                    "Jupiter’s moon Ganymede is the largest moon in the solar system. Jupiter’s moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto Io and Europa. Ganymeade measures 5, 268 km across, making it larger than the planet Mercury.",
+                    "This planets moon Ganymede is the largest moon in the solar system. This planets moons are sometimes called the Jovian satellites, the largest of these are Ganymeade, Callisto, Io and Europa. Ganymeade measures 5268 km across, making it, despite being a moon, larger than some other planets in our solar system.",
 
                     "Jupiter has a thin ring system. Its rings are composed mainly of dust particles ejected from some of Jupiter’s smaller worlds during impacts from incoming comets and asteroids.The ring system begins some 92, 000 kilometres above Jupiter’s cloud tops and stretches out to more than 225, 000 km from the planet.They are between 2, 000 to 12, 500 kilometres thick.",
 
@@ -558,7 +558,7 @@ db.solar_system.insertMany([
 
                     "Jupiter is the only planet that has a center of mass with the Sun that lies outside the volume of the Sun, though by only 7% of the Sun’s radius.",
 
-                    "The largest of Jupiter’s moons, Ganymede is the largest moon in the solar system. The moons are sometimes called the Jovian satellites and the largest of them are Ganymede, Callisto, Io and Europa. Ganymede is larger than the planet Mercury with a diameter of around 5,268 km.",
+                    "A lot like the Sun, Jupiter is mostly composed of hydrogen and helium. Jupiter contains the largest ocean in the solar system, an ocean of liquid hydrogen.",
 
                     "Jupiter actually experiences the most intense auroras in the solar system, being hundreds of times brighter than on Earth. Just like on Earth, auroras on Jupiter are caused by solar storms. However, Jupiter has an additional source for its auroras: charged particles thrown into space by its orbiting moon Io, which is famous for its many large volcanoes.",
 
@@ -965,7 +965,7 @@ db.solar_system.insertMany([
 
                                 "Among Uranus's five major moons, Ariel is the second closest to the planet, orbiting at the distance of about 190,000 km.[f] Its orbit has a small eccentricity and is inclined very little relative to the equator of Uranus. Its orbital period is around 2.5 Earth days, coincident with its rotational period. This means that one side of the moon always faces the planet; a condition known as tidal lock.",
 
-                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite, and was the first Uranian satellite on which this compound was discovered. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
+                                "Except for water, the only other compound identified on the surface of Ariel by infrared spectroscopy is carbon dioxide (CO2), which is concentrated mainly on its trailing hemisphere. Ariel shows the strongest spectroscopic evidence for CO2 of any Uranian satellite. The origin of the carbon dioxide is not completely clear. It might be produced locally from carbonates or organic materials under the influence of the energetic charged particles coming from Uranus's magnetosphere or solar ultraviolet radiation. ",
 
                             ]
                         },
@@ -1168,7 +1168,7 @@ db.solar_system.insertMany([
                 surface_temperature_min_celcius: -218,
                 facts: [
 
-                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions.It was named after the Roman god of the sea.",
+                    "Neptune was not known to the ancients. It is not visible to the naked eye and was first observed in 1846. Its position was determined using mathematical predictions. It was named after the Roman god of the sea.",
 
                     "Neptune has 6 faint rings. However, one of the rings was only discovered very recently by Voyager 2 and there is debate in the scientic community regarding if the 6th ring is in fact a ring that seperates and rejoins on occaion",
 
@@ -1294,7 +1294,7 @@ db.solar_system.insertMany([
         ],
         sun: {
             name: "Sun",
-            star_intro: "",
+            star_intro: "The Sun, Solis, Ud, the primary source of light, heat and energy in our solar system. The Sun is located in the center of the Solar System. It is a nearly perfect sphere of hot plasma, essentially, a hot ball of glowing gases. It is the most important source of energy for life on Earth (and possibly on other planets or moons too...?).",
             image_url: [
                 "https://www.extremetech.com/wp-content/uploads/2020/01/NASA-Sun.jpg",
                 "https://cdn.cnn.com/cnnnext/dam/assets/150216005531-vo-nasa-solar-dynamics-observatory-5-years-00011523.jpg",
@@ -1310,17 +1310,37 @@ db.solar_system.insertMany([
             surface_temperature_min_celcius: 5504.85,
             internal_temperature_celcius: 14999982.222,
             facts: [
-                "The Sun accounts for 99.86% of the mass in the solar system.", 
 
-                "One day the Sun will consume the Earth.",
+                "The Sun accounts for 99.86% of the mass in the solar system. It has a mass of around 330,000 times that of Earth. It is three quarters hydrogen and most of its remaining mass is helium..",
 
-                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range.",
+                "Over one million Earth’s could fit inside the Sun.If you were to fill a hollow Sun with spherical Earths, somewhere around 960, 000 would fit inside.However, if you squashed those Earths to ensure there was no wasted space then you could fit 1, 300, 000 Earths inside the Sun.The surface area of the Sun is 11, 990 times that of Earth.",
 
                 "The size of the Sun compared to the largest known stars (red giants) is not very big. However, if compared to the most common type of star in the universe, the red dwarf, the Sun is quite a bit larger. Thus, the Sun is not the biggest type of star in the universe, but it is definitely larger than most.",
 
                 "As far as the Sun’s mass compared to other bodies found in our solar system, the Sun is easily the most massive. The Sun alone contains 99.8% of the total mass in the Solar System. In terms of size, the Sun has a diameter of roughly 1.4 million kilometers(870, 000 miles).To put this in perspective, this is almost 110 times the diameter of the Earth.What this means is that about one million Earth’s could fit inside the Sun.",
 
-                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature."
+                "One day the Sun will consume the Earth. The Sun will continue to burn for about 130 million years after it burns through all of its hydrogen, instead burning helium. During this time it will expand to such a size that it will engulf Mercury and Venus. When it reaches this point, it will have become a red giant star. The most probable fate of the planet is absorption by the Sun in about 7.5 billion years, after the star has entered the later red giant phase and expanded beyond the planet's current orbit.",
+
+                "The Sun is halfway through its life. At 4.5 billion years old, the Sun has burned off around half of its hydrogen stores and has enough left to continue burning hydrogen for another 5 billion years. Currently the Sun is a yellow dwarf star.",
+
+                "The Sun will eventually be about the size of Earth. Once the Sun has completed its red giant phase, it will collapse.It’s huge mass will be retained, but it will have a volume similar to that of Earth.When that happens, it will be known as a white dwarf.",
+
+                "The Sun is what is known as a main sequence star; that is, a sphere composed primarily of the two gases hydrogen and helium such that certain conditions are met. The first condition is that it must have a mass falling within a certain range. The energy created by the Sun’s core is nuclear fusion. This huge amount of energy is produced when four hydrogen nuclei are combined into one helium nucleus.",
+
+                "The Sun is almost a perfect sphere. Considering the sheer size of the Sun, there is only a 10 km difference in its polar and equatorial diameters – this makes it the closest thing to a perfect sphere observed in nature.",
+
+                "The Sun is travelling at 220 km per second.It is around 24, 000 - 26, 000 light - years from the galactic centre and it takes the Sun approximately 225 - 250 million years to complete one orbit of the centre of the Milky Way.",
+
+                "It takes eight minutes for light reach Earth from the Sun.The average distance from the Sun to the Earth is about 150 million km.Light travels at 300, 000 km per second so dividing one by the other gives you 500 seconds – eight minutes and twenty seconds.This energy can reach Earth in mere minutes, but it takes millions of years to travel from the Sun’s core to its surface.",
+
+                "The distance between Earth and Sun changes.This is because the Earth travels on a elliptical orbit path around the Sun.The distance between the two ranges from 147 to 152 million km.This distance between them is one Astronomical Unit(AU).",
+
+                "Temperatures inside the Sun can reach 15 million degrees Celsius.Energy is generated through nuclear fusion in the Sun’s core – this is when hydrogen converts to helium – and because objects generally expand, the Sun would explode like an enormous bomb if it wasn’t for it’s tremendous gravitational pull.",
+
+                "The Sun generates solar winds. These are ejections of plasma (extremely hot charged particles) that originate in the layer of the Sun know as the corona and they can travel through the solar system at up to 450 km per second. The Aurora Borealis and Aurora Australis are caused by the interaction of solar winds with Earth’s atmosphere.",
+
+                "The Sun has a powerful magnetic field. When magnetic energy is released by the Sun during magnetic storms, solar flares occur which we see on Earth as sunspots. Sunspots are dark areas on the Sun’s surface caused by magnetic variations. The reason they appear dark is due to their temperature being much lower than surrounding areas."
+
             ]
         },
         satellites: [],
